@@ -1,6 +1,9 @@
 buildscript {
     repositories {
         mavenCentral()
+        maven {
+        url "https://repo.eclipse.org/content/repositories/paho-releases/"
+    	}
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.1.RELEASE")
@@ -36,10 +39,13 @@ dependencies {
     compile("mysql:mysql-connector-java")
                
     compile("org.springframework.boot:spring-boot-starter-jetty")
+    
+	compile ("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.2")
+	compile ("com.google.code.gson:gson")
+        
     // end::jetty[]
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
     testCompile("junit:junit")
 }
-

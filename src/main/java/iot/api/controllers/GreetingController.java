@@ -1,4 +1,4 @@
-package api.controllers;
+package iot.api.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

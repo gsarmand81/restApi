@@ -1,4 +1,4 @@
-package api.models;
+package iot.api.models;
 
 import javax.transaction.Transactional;
 

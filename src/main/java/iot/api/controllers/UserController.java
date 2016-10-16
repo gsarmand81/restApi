@@ -1,12 +1,12 @@
-package api.controllers;
-
-import api.models.User;
-import api.models.UserDao;
+package iot.api.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import iot.api.models.User;
+import iot.api.models.UserDao;
 
 /**
  * A class to test interactions with the MySQL database using the UserDao class.
