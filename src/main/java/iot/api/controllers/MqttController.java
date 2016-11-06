@@ -1,38 +1,29 @@
 package iot.api.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.google.gson.JsonObject;
-
-import iot.api.mqtt.MqttPublishSubscribeUtility;
-
-
+import iot.api.mqtt.MqttPublishSubscribeUtilityStorage;
 
 @Controller
 public class MqttController {
 
+	@Autowired
+	private MqttPublishSubscribeUtilityStorage mqttClients;
+
 	// ------------------------
 	// PUBLIC METHODS
-	// ------------------------
-
+	// ------------------------ 
 	@RequestMapping("/mqtt")
 	@ResponseBody
-	public String testMqtt() {
+	public String testMqtt(@RequestParam(value="topic") String completeNameTopic,
+			@RequestParam(value="message") String message) {
 
-		MqttPublishSubscribeUtility mqttPublishSubscribeUtility = new MqttPublishSubscribeUtility();
+		mqttClients.getMqttClient(completeNameTopic).mqttConnectNPublishNSubscribe(message);
 
-		JsonObject payload = new JsonObject();
-		payload.addProperty("Id", "Id");
-        payload.addProperty("blinkStatus", "blinkStatus");
-        payload.addProperty("dateTimeStamp",  "dateTimeStamp");
-        payload.addProperty("blinkCounter",  "blinkCounter");
-		
-        
-		//Connect to MQTT Broker, Publish the message to topic 
-		mqttPublishSubscribeUtility.mqttConnectNPublishNSubscribe(payload);
-		
 		return "Invoke Success!!";
 	}
 

@@ -27,7 +27,7 @@ public class SensorEvent {
 	
 	@NotNull
 	@Column(name = "VALUE")
-	private long value;
+	private String value;
 	
 	@ManyToOne
 	@JoinColumn(name = "FRIDGE_ID")
@@ -62,11 +62,11 @@ public class SensorEvent {
 		this.timestamp = timestamp;
 	}
 
-	public long getValue() {
+	public String getValue() {
 		return value;
 	}
 
-	public void setValue(long value) {
+	public void setValue(String value) {
 		this.value = value;
 	}
 

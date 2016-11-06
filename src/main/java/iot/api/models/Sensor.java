@@ -13,7 +13,6 @@ import javax.validation.constraints.NotNull;
 public class Sensor {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "SENSOR_ID")
 	private long id;
 	
@@ -35,6 +34,11 @@ public class Sensor {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Sensor [id=" + id + ", name=" + name + "]";
 	}
 
 }

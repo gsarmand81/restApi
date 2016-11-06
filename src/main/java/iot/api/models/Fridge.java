@@ -2,8 +2,6 @@ package iot.api.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -15,8 +13,7 @@ import javax.validation.constraints.NotNull;
 @Table(name = "fridges")
 public class Fridge {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Id	
 	@Column(name = "FRIDGE_ID")
 	private long id;
 	
@@ -31,12 +28,24 @@ public class Fridge {
 	public Fridge(String arduino) {
 		this.arduino = arduino;
 	}
+	
+	public Fridge() {
+	}
 
+	public Fridge(long id, String arduino, Store store) {
+		super();
+		this.id = id;
+		this.arduino = arduino;
+		this.store = store;
+	}
+
+	
 	public Fridge(String arduino, Store store) {
 		this.arduino = arduino;
 		this.store = store;
 	}
 
+	
 	public long getIdFridge() {
 		return id;
 	}
@@ -59,6 +68,11 @@ public class Fridge {
 
 	public void setStore(Store store) {
 		this.store = store;
+	}
+
+	@Override
+	public String toString() {
+		return "Fridge [id=" + id + ", arduino=" + arduino + ", store=" + store + "]";
 	}
 
 }

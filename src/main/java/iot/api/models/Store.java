@@ -5,6 +5,7 @@ import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -17,7 +18,6 @@ import javax.validation.constraints.NotNull;
 public class Store {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "STORE_ID")
 	private long id;
 	
@@ -33,7 +33,7 @@ public class Store {
 	@Column(name = "RASBERRY")
 	private String raspberry;
 	
-	@OneToMany(mappedBy="store", cascade = CascadeType.ALL)
+	@OneToMany(fetch = FetchType.EAGER,mappedBy="store", cascade = CascadeType.ALL)
 	private Set<Fridge> fridges;
 
 	public Store(){
@@ -85,6 +85,12 @@ public class Store {
 
 	public void setFridges(Set<Fridge> fridges) {
 		this.fridges = fridges;
+	}
+
+	@Override
+	public String toString() {
+		return "Store [id=" + id + ", name=" + name + ", address=" + address + ", raspberry=" + raspberry + ", fridges="
+				+ fridges + "]";
 	}
 
 }

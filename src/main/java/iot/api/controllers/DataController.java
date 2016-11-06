@@ -2,6 +2,8 @@ package iot.api.controllers;
 
 import java.util.Date;
 import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,11 +20,25 @@ import iot.api.models.Store;
 import iot.api.models.StoreDao;
 
 @Controller
-public class TestController {
+public class DataController {
 
 	// ------------------------
 	// PUBLIC METHODS
 	// ------------------------
+	
+	@RequestMapping("/getStore")
+	@ResponseBody
+	public String getStore() {
+		
+		List<Store> stores = storeDao.findById(0l);
+		for (Iterator iterator = stores.iterator(); iterator.hasNext();) {
+			Store store = (Store) iterator.next();
+			System.out.println("Store: " + store.getName());
+		} 
+		
+		return "Exit!";
+	}
+
 
 	@RequestMapping("/saveStore")
 	@ResponseBody
@@ -88,7 +104,7 @@ public class TestController {
 		
 		SensorEvent sensorEvent = new SensorEvent(fridge,sensor);
 		sensorEvent.setTimestamp(new Date());
-		sensorEvent.setValue(666l);
+		sensorEvent.setValue("666");
 		sensorEventDao.save(sensorEvent);
 		
 		return "Invoke Success!!";
