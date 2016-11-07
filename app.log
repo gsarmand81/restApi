@@ -16,3 +16,57 @@
 18:50:31.534 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 102 - Connected
 18:50:31.535 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 91 - About to connect to MQTT broker with the following parameters: - BROKER_URL=tcp://127.0.0.1:1883 CLIENT_ID=IotClient TOPIC_NAME: test_topic/A2/value/get
 18:50:31.538 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 102 - Connected
+18:51:19.738 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 36 - -------------------------------------------------
+18:51:19.738 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 37 - | Topic:test_topic/D2/value/get
+18:51:19.739 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 38 - | Message: 1
+18:51:19.739 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 39 - -------------------------------------------------
+18:51:19.955 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/D2/value/get baseTopic: test_topic
+18:51:19.955 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: D2
+18:51:19.962 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.persist 51 - TOPIC Sensor Helper: test_topic/D2/value/get
+18:51:19.962 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/D2/value/get baseTopic: test_topic
+18:51:19.962 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: D2
+18:51:48.484 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 36 - -------------------------------------------------
+18:51:48.485 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 37 - | Topic:test_topic/D2/value/get
+18:51:48.485 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 38 - | Message: 0
+18:51:48.485 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 39 - -------------------------------------------------
+18:51:48.498 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/D2/value/get baseTopic: test_topic
+18:51:48.498 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: D2
+18:51:48.505 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.persist 51 - TOPIC Sensor Helper: test_topic/D2/value/get
+18:51:48.505 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/D2/value/get baseTopic: test_topic
+18:51:48.506 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: D2
+18:51:52.002 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 36 - -------------------------------------------------
+18:51:52.002 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 37 - | Topic:test_topic/D2/value/get
+18:51:52.003 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 38 - | Message: 1
+18:51:52.003 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 39 - -------------------------------------------------
+18:51:52.015 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/D2/value/get baseTopic: test_topic
+18:51:52.015 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: D2
+18:51:52.022 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.persist 51 - TOPIC Sensor Helper: test_topic/D2/value/get
+18:51:52.022 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/D2/value/get baseTopic: test_topic
+18:51:52.022 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: D2
+18:52:08.546 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 36 - -------------------------------------------------
+18:52:08.546 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 37 - | Topic:test_topic/A2/value/get
+18:52:08.546 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 38 - | Message: 778
+18:52:08.547 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 39 - -------------------------------------------------
+18:52:08.559 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/A2/value/get baseTopic: test_topic
+18:52:08.560 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: A2
+18:52:08.567 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.persist 51 - TOPIC Sensor Helper: test_topic/A2/value/get
+18:52:08.567 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/A2/value/get baseTopic: test_topic
+18:52:08.568 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: A2
+18:52:09.823 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 36 - -------------------------------------------------
+18:52:09.824 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 37 - | Topic:test_topic/D2/value/get
+18:52:09.824 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 38 - | Message: 0
+18:52:09.824 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 39 - -------------------------------------------------
+18:52:09.835 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/D2/value/get baseTopic: test_topic
+18:52:09.836 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: D2
+18:52:09.843 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.persist 51 - TOPIC Sensor Helper: test_topic/D2/value/get
+18:52:09.843 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/D2/value/get baseTopic: test_topic
+18:52:09.843 [MQTT Call: IotClienttest_topic/D2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: D2
+18:52:13.552 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 36 - -------------------------------------------------
+18:52:13.552 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 37 - | Topic:test_topic/A2/value/get
+18:52:13.552 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 38 - | Message: 780
+18:52:13.553 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.SimpleCallback.messageArrived 39 - -------------------------------------------------
+18:52:13.567 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/A2/value/get baseTopic: test_topic
+18:52:13.567 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: A2
+18:52:13.573 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.persist 51 - TOPIC Sensor Helper: test_topic/A2/value/get
+18:52:13.574 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 121 - Topic: test_topic/A2/value/get baseTopic: test_topic
+18:52:13.574 [MQTT Call: IotClienttest_topic/A2/value/get] INFO  iot.api.mqtt.PersistHelper.mapSensor 125 - PIN: A2
