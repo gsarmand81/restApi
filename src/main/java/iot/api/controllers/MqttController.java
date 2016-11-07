@@ -13,10 +13,7 @@ public class MqttController {
 
 	@Autowired
 	private MqttPublishSubscribeUtilityStorage mqttClients;
-
-	// ------------------------
-	// PUBLIC METHODS
-	// ------------------------ 
+	
 	@RequestMapping("/mqtt")
 	@ResponseBody
 	public String testMqtt(@RequestParam(value="topic") String completeNameTopic,

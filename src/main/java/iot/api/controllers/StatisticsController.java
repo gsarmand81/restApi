@@ -2,40 +2,33 @@ package iot.api.controllers;
 
 import java.util.Date;
 import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import iot.api.models.Fridge;
-import iot.api.models.Sensor;
-import iot.api.models.SensorDao;
-import iot.api.models.SensorEvent;
-import iot.api.models.SensorEventDao;
-import iot.api.models.Store;
-import iot.api.models.StoreDao;
+import iot.api.model.entities.Fridge;
+import iot.api.model.entities.Sensor;
+import iot.api.model.entities.SensorEvent;
+import iot.api.model.entities.Store;
+import iot.api.model.entities.repositories.SensorRepository;
+import iot.api.model.entities.repositories.SensorEventRepository;
+import iot.api.model.entities.repositories.StoreRepository;
 
 @Controller
-public class DataController {
+public class StatisticsController {
 
-	// ------------------------
-	// PUBLIC METHODS
-	// ------------------------
-	
+	private static final Logger logger = LoggerFactory.getLogger("sys.out.log");
+
 	@RequestMapping("/getStore")
 	@ResponseBody
 	public String getStore() {
 		
-		List<Store> stores = storeDao.findById(0l);
-		for (Iterator iterator = stores.iterator(); iterator.hasNext();) {
-			Store store = (Store) iterator.next();
-			System.out.println("Store: " + store.getName());
-		} 
-		
+		Store store = storeDao.findById(0l);
 		return "Exit!";
 	}
 
@@ -55,7 +48,7 @@ public class DataController {
 			add(fridge);
 		}};
 
-		store.setFridges(fridges);
+//		store.setFridges(fridges);
 		storeDao.save(store);		
 
 		return "Invoke Success!!";
@@ -94,7 +87,7 @@ public class DataController {
 			add(fridge);
 		}};
 
-		store.setFridges(fridges);
+//		store.setFridges(fridges);
 		storeDao.save(store);		
 		
 		Sensor sensor = new Sensor();
@@ -112,12 +105,12 @@ public class DataController {
 
 	
 	@Autowired
-	private StoreDao storeDao;
+	private StoreRepository storeDao;
 
 	@Autowired
-	private SensorDao sensorDao;
+	private SensorRepository sensorDao;
 	
 	@Autowired
-	private SensorEventDao sensorEventDao;
+	private SensorEventRepository sensorEventDao;
 
 } 

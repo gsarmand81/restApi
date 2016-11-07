@@ -1,0 +1,296 @@
+/* Estilos para el main de la pagina y las lisytas ul/li */
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
+
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+    
+}
+
+button {
+    background-color: #008000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-weight: bold
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 25%;
+    border-radius: 50%;
+}
+
+img.fondo {
+     width: 100%;
+    height: 550px;
+       
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+/*form para las pantallas */
+
+
+
+select {
+    width: auto;
+    padding: 16px 20px;
+    border: initial;
+    background-color: #f1f1f1;
+}
+
+label {
+color: #666666;
+font-weight: bold;
+}
+
+/** DIVISION DE LA PAGINA **/
+body {
+	font: 1em/150% Arial, Helvetica, sans-serif;
+}
+a {
+	color: #669;
+	texto-decoration: none;
+}
+a:hover {
+	texto-decoration: underline;
+}
+h1 {
+	font: bold 36px/100% Arial, Helvetica, sans-serif;
+}
+p {
+	font-size: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+/************************************************************************************
+ESTRUCTURA
+*************************************************************************************/
+#pagewrap {
+	padding: 80px;
+	width: auto;
+	margin: 20px;
+}
+#header {
+	height: 145px;
+}
+#content {
+	width: auto;
+    height: 900px;
+	
+}
+#footer {
+	clear: both;
+     height: 30px;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* para 980px o menos */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+
+}
+
+/* para 700px o menos */
+@media screen and (max-width: 700px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+
+}
+
+/* para 480px o menos */
+@media screen and (max-width: 480px) {
+
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+}
+
+/* borde & guideline (puedes ignorarlo) */
+#content {
+	background: none;
+}
+#header, #content {
+	margin-bottom: 5px;
+}
+#pagewrap {
+	border: solid 1px #ccc;
+}
+#header, #content, #footer {
+	border: none;
+}
+/*Estilos de tablas*/
+
+table, td, th {
+    border: 1px solid #ddd;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: #D35400;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/*tr:hover {background-color: #f5f5f5}
+tr:nth-child(even) {background-color: #f2f2f2}
+--> Boostrap*/
+
+div#next_button{
+    /*position: absolute;*/
+    bottom: 0px; right: 0px;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+/* Codigo para los tab's*/
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.graph {
+    float: left;
+    width: 500px;
+    height: 200px;
+    margin: 10px;    
+}

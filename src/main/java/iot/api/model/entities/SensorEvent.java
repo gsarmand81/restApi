@@ -1,4 +1,4 @@
-package iot.api.models;
+package iot.api.model.entities;
 
 import java.util.Date;
 
@@ -84,6 +84,12 @@ public class SensorEvent {
 
 	public void setSensor(Sensor sensor) {
 		this.sensor = sensor;
+	}
+
+	@Override
+	public String toString() {
+		return "SensorEvent [id=" + id + ", timestamp=" + timestamp + ", value=" + value + ", fridge=" + fridge
+				+ ", sensor=" + sensor + "]";
 	}
 	
 }

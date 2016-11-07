@@ -1,9 +1,7 @@
-package iot.api.models;
+package iot.api.model.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
@@ -19,6 +17,10 @@ public class Sensor {
 	@NotNull
 	@Column(name = "NAME")
 	private String name;
+	
+	@NotNull
+	@Column(name = "TYPE")
+	private String type;
 
 	public long getId() {
 		return id;
@@ -36,9 +38,17 @@ public class Sensor {
 		this.name = name;
 	}
 
-	@Override
-	public String toString() {
-		return "Sensor [id=" + id + ", name=" + name + "]";
+	public String getType() {
+		return type;
 	}
 
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	@Override
+	public String toString() {
+		return "Sensor [id=" + id + ", name=" + name + ", type=" + type + "]";
+	}
+	
 }

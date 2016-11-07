@@ -1,5 +1,7 @@
 package iot.api;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,6 +15,8 @@ import iot.api.mqtt.MqttPublishSubscribeUtilityStorage;
 @Configuration
 public class Application {
 
+	private static final Logger logger = LoggerFactory.getLogger("sys.out.log");
+	
 	public static void main(String[] args) {
 
 		ApplicationContext ctx = SpringApplication.run(Application.class, args);
@@ -30,11 +34,11 @@ public class Application {
 
 		MqttPublishSubscribeUtilityStorage clientStorage = new MqttPublishSubscribeUtilityStorage();
 		
-		System.out.println("Valor properties: " + topic);
+		logger.info("Properties Value [topic]: " + topic );
+		logger.info("Properties Value [pins]: " + pins);
 
 		String[] pin = pins.split(",");    	
 		for (int i = 0; i < pin.length; i++) {
-			System.out.println("PIN: " + pin[i]);
 			clientStorage.addMqttClient(topic, pin[i]);
 		}
 

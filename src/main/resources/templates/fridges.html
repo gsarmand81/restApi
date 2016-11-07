@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>GUI</title>
+<meta name="description" content="" />
+<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<div id="pagewrap">
+		<div id="header">
+			<div class="imgcontainer">
+				<h1>SISTEMA DE TIENDAS DE ABARROTES</h1>
+			</div>
+			<ul>
+				<li><a href="store.html" th:href="@{/store}">Tiendas</a></li>
+				<li><a href="statistics.html" th:href="@{/statistics}">Estadisticas</a></li>
+				<li><a href="login.html" th:href="@{/index}">Salir</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<form action="action_page.php">
+				<div class="container">
+					<h1>Detalle de refrigeradores por tienda</h1>
+					<label><b>Tienda: </b></label> <label style="color: black"
+						th:text="${store.name}">Queretáto 1</label>
+				</div>
+				<div>
+					<div th:each="fridge:${fridges}" class="tabcontent">
+						<h3 th:text="'Refrigerador_' + ${fridge.id}">Refrigerador 1</h3>
+						<div class="container" style="overflow-x: auto;">
+							<table>
+								<tr>
+									<th>Fecha</th>
+									<th>Tipo de sensor</th>
+									<th>Modelo</th>
+									<th>Valor</th>
+									<th>Acciones</th>
+								</tr>
+
+								<tr th:each="event:${fridge.lastData}">
+									<span th:if="${event != null}">
+										<td th:text="${event.timestamp}">2016-05-19</td>
+										<td th:text="${event.sensor.name}">Temperatura Exterior</td>
+										<td th:text="${event.sensor.type}">sen</td>
+										<td th:text="${event.value}">10° C</td> <span
+										th:switch="${event.sensor.type}">
+											<td th:case="'Actuador'"><a href="modifyFridge.html"
+												th:href="@{/modifyFridge(store_id=${store.id},fridge_id=${fridge.id},sensor_id=${event.sensor.id})}">Modificar</a>
+										</td>
+											<td th:case="'Sensor'"><a href="#">NA</a></td>
+									</span>
+									</span>
+								</tr>
+
+							</table>
+						</div>
+					</div>
+				</div>
+				<div>
+					<a href="fridges.html" th:href="@{/fridges(store_id=${store.id})}">Recargar</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -11,6 +11,9 @@ import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import iot.api.ApplicationContextProvider;
 
 
@@ -20,18 +23,20 @@ import iot.api.ApplicationContextProvider;
  */
 class SimpleCallback implements MqttCallback {
 
+	private static final Logger logger = LoggerFactory.getLogger("sys.out.log");
+
 	//Called when the client lost the connection to the broker
 	public void connectionLost(Throwable arg0) {
-		System.out.println("Connection lost to the broker tcp://192.168.1.2:1883");
+		logger.info("Connection lost to the broker tcp://192.168.1.2:1883");
 	}
 
 	//Called when a new message has arrived
 	public void messageArrived(String topic, MqttMessage message) throws Exception {
 
-		System.out.println("-------------------------------------------------");
-		System.out.println("| Topic:" + topic);
-		System.out.println("| Message: " + new String(message.getPayload()));
-		System.out.println("-------------------------------------------------");
+		logger.info("-------------------------------------------------");
+		logger.info("| Topic:" + topic);
+		logger.info("| Message: " + new String(message.getPayload()));
+		logger.info("-------------------------------------------------");
 
 		try {
 
@@ -46,7 +51,7 @@ class SimpleCallback implements MqttCallback {
 	}
 
 	public void deliveryComplete(IMqttDeliveryToken token) {
-		System.out.println("Delivery is Complete");
+		logger.info("Delivery is Complete");
 
 	}
 
@@ -57,6 +62,8 @@ class SimpleCallback implements MqttCallback {
  *
  */
 public class MqttPublishSubscribeUtility {
+
+	private static final Logger logger = LoggerFactory.getLogger("sys.out.log");
 
 	private final static String PROPERTIES_FILE_NAME = "/mqtt.properties";
 	Properties props = new Properties();
@@ -77,22 +84,22 @@ public class MqttPublishSubscribeUtility {
 			try {
 				props.load(MqttPublishSubscribeUtility.class.getResourceAsStream(PROPERTIES_FILE_NAME));
 			} catch (IOException e) {
-				System.err.println("Not able to read the properties file, exiting..");
+				logger.error("Not able to read the properties file, exiting..");
 				System.exit(-1);
 			}
 
-			System.out.println("About to connect to MQTT broker with the following parameters: - BROKER_URL=" + 
+			logger.info("About to connect to MQTT broker with the following parameters: - BROKER_URL=" + 
 					props.getProperty("BROKER_URL")+" CLIENT_ID="+props.getProperty("CLIENT_ID") + 
 					" TOPIC_NAME: " + topicName);
 			MqttClient sampleClient;
 
-			sampleClient = new MqttClient(props.getProperty("BROKER_URL"), props.getProperty("CLIENT_ID")+topicName,persistence);
+			sampleClient = new MqttClient(props.getProperty("BROKER_URL"), props.getProperty("CLIENT_ID")+topicName, persistence);
 
 			MqttConnectOptions connOpts = new MqttConnectOptions();
 			connOpts.setCleanSession(true);
 			sampleClient.connect(connOpts);
 
-			System.out.println("Connected");
+			logger.info("Connected");
 
 			sampleClient.subscribe(topicName, 1);
 			sampleClient.setCallback(new SimpleCallback());
@@ -100,7 +107,7 @@ public class MqttPublishSubscribeUtility {
 			this.sampleClient = sampleClient;
 
 		} catch (MqttException e) {
-			// TODO Auto-generated catch block
+			logger.error(e.getMessage());
 			e.printStackTrace();
 		}
 
@@ -110,23 +117,23 @@ public class MqttPublishSubscribeUtility {
 	public void mqttConnectNPublishNSubscribe(String payload){
 		try {
 
-			System.out.println("Publish message="+payload.toString());	        
+			logger.info("Publish message="+payload.toString());	        
 			MqttMessage message = new MqttMessage(payload.getBytes(Charset.forName("UTF-8")));
 			if(props.getProperty("QOS")!=null){
 				message.setQos(Integer.parseInt(props.getProperty("QOS")));
 			}	    
 			sampleClient.publish(topicName, message);
 
-			System.out.println("Message published");	        
+			logger.info("Message published");	        
 			//TODO Poner esta accion en un metodo destroy
 			//	        sampleClient.disconnect();
 
 		} catch(MqttException me){
-			System.out.println("reason " + me.getReasonCode());
-			System.out.println("msg " + me.getMessage());
-			System.out.println("loc " + me.getLocalizedMessage());
-			System.out.println("cause " + me.getCause());
-			System.out.println("except " + me);
+			logger.error("reason " + me.getReasonCode());
+			logger.error("msg " + me.getMessage());
+			logger.error("loc " + me.getLocalizedMessage());
+			logger.error("cause " + me.getCause());
+			logger.error("except " + me);
 			me.printStackTrace();
 		}
 	}

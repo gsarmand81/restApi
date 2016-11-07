@@ -1,4 +1,6 @@
-package iot.api.models;
+package iot.api.model.entities;
+
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -6,6 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import javax.validation.constraints.NotNull;
 
 
@@ -25,6 +28,9 @@ public class Fridge {
 	@JoinColumn(name = "STORE_ID")
 	private Store store;
 
+	@Transient
+	private List<SensorEvent> lastData;
+	
 	public Fridge(String arduino) {
 		this.arduino = arduino;
 	}
@@ -45,15 +51,14 @@ public class Fridge {
 		this.store = store;
 	}
 
-	
-	public long getIdFridge() {
+	public long getId() {
 		return id;
 	}
 
-	public void setIdFridge(long idFridge) {
-		this.id = idFridge;
+	public void setId(long id) {
+		this.id = id;
 	}
-	
+
 	public String getArduino() {
 		return arduino;
 	}
@@ -61,7 +66,7 @@ public class Fridge {
 	public void setArduino(String arduino) {
 		this.arduino = arduino;
 	}
-	
+
 	public Store getStore() {
 		return store;
 	}
@@ -70,9 +75,17 @@ public class Fridge {
 		this.store = store;
 	}
 
-	@Override
-	public String toString() {
-		return "Fridge [id=" + id + ", arduino=" + arduino + ", store=" + store + "]";
+	public List<SensorEvent> getLastData() {
+		return lastData;
 	}
 
+	public void setLastData(List<SensorEvent> lastData) {
+		this.lastData = lastData;
+	}
+
+	@Override
+	public String toString() {
+		return "Fridge [id=" + id + ", arduino=" + arduino + ", store=" + store + ", lastData=" + lastData + "]";
+	}
+	
 }

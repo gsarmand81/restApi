@@ -1,13 +1,11 @@
-package iot.api.models;
+package iot.api.model.entities;
 
-import java.util.Set;
+import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
@@ -34,7 +32,7 @@ public class Store {
 	private String raspberry;
 	
 	@OneToMany(fetch = FetchType.EAGER,mappedBy="store", cascade = CascadeType.ALL)
-	private Set<Fridge> fridges;
+	private List<Fridge> fridges;
 
 	public Store(){
 
@@ -44,15 +42,14 @@ public class Store {
 		this.name = name;
 		this.address = address;
 		this.raspberry = raspberry;
-
 	}
 
-	public long getIdStore() {
+	public long getId() {
 		return id;
 	}
 
-	public void setIdStore(long idStore) {
-		this.id = idStore;
+	public void setId(long id) {
+		this.id = id;
 	}
 
 	public String getName() {
@@ -78,12 +75,12 @@ public class Store {
 	public void setRaspberry(String raspberry) {
 		this.raspberry = raspberry;
 	}
-	
-	public Set<Fridge> getFridges() {
+
+	public List<Fridge> getFridges() {
 		return fridges;
 	}
 
-	public void setFridges(Set<Fridge> fridges) {
+	public void setFridges(List<Fridge> fridges) {
 		this.fridges = fridges;
 	}
 

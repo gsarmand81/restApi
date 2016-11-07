@@ -1,0 +1,18 @@
+5824 [main] INFO  app.log - Properties Value [topic]: test_topic
+5824 [main] INFO  app.log - Properties Value [pins]: /D12/value/set,/D13/value/set,/D2/value/get,/A0/value/get,/A1/value/get,/A2/value/get
+5892 [main] INFO  sys.out.log - Properties Value [topic]: test_topic
+5893 [main] INFO  sys.out.log - Properties Value [pins]: /D12/value/set,/D13/value/set,/D2/value/get,/A0/value/get,/A1/value/get,/A2/value/get
+18:50:31.465 [main] INFO  iot.api.Application.MqttPublishSubscribeUtilityStorage 37 - Properties Value [topic]: test_topic
+18:50:31.467 [main] INFO  iot.api.Application.MqttPublishSubscribeUtilityStorage 38 - Properties Value [pins]: /D12/value/set,/D13/value/set,/D2/value/get,/A0/value/get,/A1/value/get,/A2/value/get
+18:50:31.470 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 91 - About to connect to MQTT broker with the following parameters: - BROKER_URL=tcp://127.0.0.1:1883 CLIENT_ID=IotClient TOPIC_NAME: test_topic/D12/value/set
+18:50:31.506 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 102 - Connected
+18:50:31.512 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 91 - About to connect to MQTT broker with the following parameters: - BROKER_URL=tcp://127.0.0.1:1883 CLIENT_ID=IotClient TOPIC_NAME: test_topic/D13/value/set
+18:50:31.516 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 102 - Connected
+18:50:31.517 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 91 - About to connect to MQTT broker with the following parameters: - BROKER_URL=tcp://127.0.0.1:1883 CLIENT_ID=IotClient TOPIC_NAME: test_topic/D2/value/get
+18:50:31.521 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 102 - Connected
+18:50:31.523 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 91 - About to connect to MQTT broker with the following parameters: - BROKER_URL=tcp://127.0.0.1:1883 CLIENT_ID=IotClient TOPIC_NAME: test_topic/A0/value/get
+18:50:31.528 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 102 - Connected
+18:50:31.531 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 91 - About to connect to MQTT broker with the following parameters: - BROKER_URL=tcp://127.0.0.1:1883 CLIENT_ID=IotClient TOPIC_NAME: test_topic/A1/value/get
+18:50:31.534 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 102 - Connected
+18:50:31.535 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 91 - About to connect to MQTT broker with the following parameters: - BROKER_URL=tcp://127.0.0.1:1883 CLIENT_ID=IotClient TOPIC_NAME: test_topic/A2/value/get
+18:50:31.538 [main] INFO  i.a.mqtt.MqttPublishSubscribeUtility.<init> 102 - Connected
