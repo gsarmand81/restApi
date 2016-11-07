@@ -101,8 +101,20 @@ public class PersistHelper {
 				}
 
 			} else if (id == 4) {
+				if (value.equals("true")) {
+					return "1";
+				} 
+				if (value.equals("false")) {
+					return "0";
+				} 
 				return value;
 			} else if (id == 5) {
+				if (value.equals("true")) {
+					return "1";
+				} 
+				if (value.equals("false")) {
+					return "0";
+				} 
 				return value;
 			}
 
