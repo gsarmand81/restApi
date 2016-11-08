@@ -106,6 +106,8 @@ public class ViewController {
 		} catch (InterruptedException e) {		
 			e.printStackTrace();
 		}	
+		
+		//Aqui validar horario de entrada ScheduleRule
 		//------------------------------------------------------
 		
 		Store store = storeRepository.findById(store_id);

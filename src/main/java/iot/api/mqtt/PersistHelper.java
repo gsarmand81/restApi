@@ -37,7 +37,11 @@ public class PersistHelper {
 	@Value("${name.base.topic}")
 	private String baseTopic;
 
-
+	public void execute(String topic, MqttMessage message) {
+		persist(topic,message);
+		//TODO Execute Rules?
+	}
+	
 	public void persist(String topic, MqttMessage message) {
 
 		try {		

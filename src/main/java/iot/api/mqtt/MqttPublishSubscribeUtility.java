@@ -42,7 +42,7 @@ class SimpleCallback implements MqttCallback {
 
 			PersistHelper persistHelper = (PersistHelper)ApplicationContextProvider.getApplicationContext().
 					getBean("persistHelper");
-			persistHelper.persist(topic, message);
+			persistHelper.execute(topic, message);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
