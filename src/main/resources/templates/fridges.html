@@ -27,12 +27,14 @@
 			<form action="action_page.php">
 				<div class="container">
 					<h1>Detalle de refrigeradores por tienda</h1>
-					<label><b>Tienda: </b></label> <label style="color: black"
+					<label><b>Tienda: </b></label>
+					<label style="color: black"
 						th:text="${store.name}">Queretáto 1</label>
 				</div>
 				<div>
 					<div th:each="fridge:${fridges}" class="tabcontent">
 						<h3 th:text="'Refrigerador_' + ${fridge.id}">Refrigerador 1</h3>
+						<b><a href="rules.html" th:href="@{/rules(store_id=${store.id},fridge_id=${fridge.id})}">Reglas por Refrigerador</a></b>
 						<div class="container" style="overflow-x: auto;">
 							<table>
 								<tr>

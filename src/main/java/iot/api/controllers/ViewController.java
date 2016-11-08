@@ -120,6 +120,18 @@ public class ViewController {
 		return "fridges";
 	}
 
+	@RequestMapping("/rules")
+	public String send(@RequestParam(value="store_id") long store_id,
+			@RequestParam(value="fridge_id") long fridge_id,  Model model) {
+		
+		//TODO Agregar logica de reglas.
+		List<Store> stores = storeRepository.findAll();
+		
+		model.addAttribute("stores", stores);
+		
+		return "rules";		
+	}
+	
 	//TODO Poner esta logica en un lugar adecuado
 	private List<SensorEvent> getLastDataByFridge(Fridge fridge) {
 
