@@ -42,27 +42,7 @@ public class ViewController {
 	@Autowired
 	private MqttPublishSubscribeUtilityStorage mqttClients;
 
-	@RequestMapping("/index")
-	public String index(Model model) {
-		return "login";
-	}
-
-	@RequestMapping("/login")
-	public String login(@RequestParam(value="name") String name,
-			@RequestParam(value="password") String password, Model model) {
-
-		logger.info("Name: " + name + " Password: " + password);		
-
-		List<Store> stores = storeRepository.findAll();		
-
-		model.addAttribute("name", name);
-		model.addAttribute("password", password);
-		model.addAttribute("stores", stores);
-		
-		return "store";
-	}
-
-	@RequestMapping("/store")
+	@RequestMapping(value = {"/","/store"})
 	public String store(Model model) {   
 		
 		List<Store> stores = storeRepository.findAll();
@@ -187,16 +167,6 @@ public class ViewController {
 			fridge.setLastData(events);
 		}
 
-	}
-
-	@RequestMapping("/main")
-	public String main(Model model) {    	
-		return "main";
-	}
-
-	@RequestMapping("/statistics")
-	public String statistics(Model model) {    	
-		return "statistics";
 	}
 
 }

@@ -8,17 +8,19 @@
 
 <body>
 	<div id="pagewrap">
-		<form action="#" th:action="@{/login}" method="post">
+		<div th:if="${param.error}">Usuario o password Invalido.</div>
+		<div th:if="${param.logout}">Has salido del sistema.</div>
+        <form th:action="@{/login}" method="post">
 			<div class="imgcontainer">
 				<h1>SISTEMA DE TIENDAS DE ABARROTES</h1>
 				<img src="images/img_avatar2.png" alt="Avatar" class="avatar" />
 			</div>
 			<div class="container">
 				<label><b>Usuario</b></label> <input type="text"
-					placeholder="Introduce usuario" name="name" /> <label><b>Contrase&ntilde;a</b></label>
+					placeholder="Introduce usuario" name="username" /> <label><b>Contrase&ntilde;a</b></label>
 				<input type="password" placeholder="Introduce contrase&ntilde;a"
 					name="password" />
-				<button type="submit" style="width: 100%;">Entrar</button>
+				<button type="submit" value="Sign In" style="width: 100%;">Entrar</button>
 			</div>
 		</form>
 	</div>

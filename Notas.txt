@@ -174,3 +174,7 @@ curl 'http://localhost:8080/mqtt?topic=test_topic/D12/value/set&message=false'
 # delete from sensor_events;
 
 # select * from sensor_events;
+
+I'm not an expert, but try to put 0.1uF capacitors, from A0 to GND and from A1 to GND, it might help.
+http://panamahitek.com/herramienta-de-control-para-arduino-el-triac-conmutador-para-corriente-alterna/
+

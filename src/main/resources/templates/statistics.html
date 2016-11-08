@@ -28,8 +28,11 @@ canvas {
 			<ul>
 				<li><a href="store.html" th:href="@{/store}">Tiendas</a></li>
 				<li><a href="statistics.html" th:href="@{/statistics}">Estadisticas</a></li>
-				<li><a href="login.html" th:href="@{/index}">Salir</a></li>
+				<li><a href="javascript: document.logoutForm.submit()" role="menuitem">Salir</a></li>
 			</ul>
+			<form name="logoutForm" th:action="@{/logout}" method="post" th:hidden="true">
+				<input type="submit" value="Sign Out" />
+			</form>
 		</div>
 		<div id="content">
 			<form action="action_page.php">

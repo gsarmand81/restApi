@@ -15,8 +15,13 @@
 			<ul>
 				<li><a href="store.html" th:href="@{/store}">Tiendas</a></li>
 				<li><a href="statistics.html" th:href="@{/statistics}">Estadisticas</a></li>
-				<li><a href="login.html" th:href="@{/index}">Salir</a></li>
+				<li><a href="javascript: document.logoutForm.submit()"
+					role="menuitem">Salir</a></li>
 			</ul>
+			<form name="logoutForm" th:action="@{/logout}" method="post"
+				th:hidden="true">
+				<input type="submit" value="Sign Out" />
+			</form>
 		</div>
 		<div id="content">
 			<form action="action_page.php">
@@ -42,9 +47,12 @@
 						</tr>
 						<tr th:each="store:${stores}">
 							<td th:text="${store.name}">Queretaro</td>
-							<td th:text="${store.address}">Zaragoza # 2001, Colonia Jardines de la Hacienda</td>
-							<td><a href="fridges.html" th:href="@{/fridges(store_id=${store.id})}" th:text="${store.fridges.size()}">4</a></td>
-						</tr>						
+							<td th:text="${store.address}">Zaragoza # 2001, Colonia
+								Jardines de la Hacienda</td>
+							<td><a href="fridges.html"
+								th:href="@{/fridges(store_id=${store.id})}"
+								th:text="${store.fridges.size()}">4</a></td>
+						</tr>
 					</table>
 				</div>
 			</form>
