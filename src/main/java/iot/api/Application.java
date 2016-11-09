@@ -11,11 +11,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import iot.api.mqtt.MqttPublishSubscribeUtilityStorage;
-import iot.api.rule.properties.RulesProperties;
 
 
 @Configuration
-@EnableConfigurationProperties
 @SpringBootApplication
 public class Application {
 

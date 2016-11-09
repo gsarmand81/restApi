@@ -178,3 +178,6 @@ curl 'http://localhost:8080/mqtt?topic=test_topic/D12/value/set&message=false'
 I'm not an expert, but try to put 0.1uF capacitors, from A0 to GND and from A1 to GND, it might help.
 http://panamahitek.com/herramienta-de-control-para-arduino-el-triac-conmutador-para-corriente-alterna/
 
+
+https://mx.answers.yahoo.com/question/index?qid=20120217090955AAP2978
+https://mx.answers.yahoo.com/question/index?qid=20110313085543AAiu35V

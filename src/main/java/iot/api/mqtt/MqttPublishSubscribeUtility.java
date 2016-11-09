@@ -15,6 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import iot.api.ApplicationContextProvider;
+import iot.api.utility.ExecuteHelper;
 
 
 /**
@@ -40,7 +41,7 @@ class SimpleCallback implements MqttCallback {
 
 		try {
 
-			PersistHelper persistHelper = (PersistHelper)ApplicationContextProvider.getApplicationContext().
+			ExecuteHelper persistHelper = (ExecuteHelper)ApplicationContextProvider.getApplicationContext().
 					getBean("persistHelper");
 			persistHelper.execute(topic, message);
 			

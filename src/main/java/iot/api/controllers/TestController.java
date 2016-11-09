@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import iot.api.rule.properties.ExecuteRules;
+import iot.api.rule.properties.RulesExecutor;
 import iot.api.rule.properties.RulesProperties;
 
 
@@ -17,7 +17,7 @@ import iot.api.rule.properties.RulesProperties;
 public class TestController {
 
 	@Autowired
-	private ExecuteRules executeRules;
+	private RulesExecutor executeRules;
 	
 	@RequestMapping("/test")
 	@ResponseBody
@@ -25,7 +25,7 @@ public class TestController {
 		
 		System.out.println("Entra a Test!");
 		
-		executeRules.executeRules("","");
+		executeRules.executeRules(0l,1200l);
 		
 		return "Invoke Success!!";
 	}
