@@ -74,6 +74,9 @@ mosquitto_pub -h 127.0.0.1 -i testPublish -t test_topic/D12/value/set -m 'true'
 mosquitto_sub -h 127.0.0.1 -i testListener -t test_topic/D12/value/get
 mosquitto_sub -h 127.0.0.1 -i testListener -t test_topic/D2/value/get
 
+mosquitto_pub -h 127.0.0.1 -i testPublish -t test_topic/D2/value/set -m 'true'
+mosquitto_sub -h 127.0.0.1 -i testListener -t test_topic/D12/value/get
+
 
 sudo java -jar lib/ardulink-mqtt-0.6.1.jar -brokerHost 127.0.0.1 -brokerPort 1883 -brokerTopic test_topic -control --analog 0 --analog 1 --analog 2 --digital 2 -athms 1000 
 

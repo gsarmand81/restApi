@@ -38,14 +38,20 @@ public class ExecuteHelper {
 	@Autowired
 	private Utility utility;
 
+	@Value("${execute.rules}")
+	private boolean flagRules;
+	
 	public void execute(String topic, MqttMessage message) {
 		
-		Long sensorId = utility.mapSensor(topic);
-		String value = utility.tranformData(topic,new String(message.getPayload()));
+		Long sensorId = utility.mapSensor(topic);		
+		String value = utility.tranformGeneralData(topic, new String(message.getPayload()));
 		
-		persist(sensorId,value); 
-		executeRules.executeRules(sensorId,value);
+		logger.info("Values to execute SensorId: " + sensorId + " Value: " + value);
 		
+		persist(sensorId,value);
+		if (flagRules)
+			executeRules.executeRules(sensorId,value);
+		 		
 	}
 
 	public void persist(long sensorId, String value) {
@@ -57,6 +63,7 @@ public class ExecuteHelper {
 			
 			SensorEvent sensorEvent = new SensorEvent(fridge,sensor);		
 			sensorEvent.setTimestamp(new Date());
+			//TODO Cambiar campo de tabla a numero (Double,Long,Integer)
 			sensorEvent.setValue(value);						
 			sensorEventDao.save(sensorEvent);
 

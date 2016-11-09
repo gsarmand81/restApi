@@ -1,7 +1,5 @@
 package iot.api.model.entities;
 
-import java.sql.Date;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,12 +18,12 @@ public class ScheduleRule {
 	private long id;
 	
 	@NotNull
-	@Column(name = "INIT_DATE")
-	private Date initDate;
+	@Column(name = "INIT_HOUR")
+	private long initHour;
 	
 	@NotNull
-	@Column(name = "END_DATE")
-	private Date endDate;
+	@Column(name = "END_HOUR")
+	private long endHour;
 	
 	@NotNull
 	@Column(name = "SENSOR_ID")
@@ -39,6 +37,10 @@ public class ScheduleRule {
 	@Column(name = "DEFAULT_VALUE")
 	private long defaultValue;
 
+	@NotNull
+	@Column(name = "ENABLED")
+	private boolean enabled;
+
 	public long getId() {
 		return id;
 	}
@@ -47,20 +49,20 @@ public class ScheduleRule {
 		this.id = id;
 	}
 
-	public Date getInitDate() {
-		return initDate;
+	public long getInitHour() {
+		return initHour;
 	}
 
-	public void setInitDate(Date initDate) {
-		this.initDate = initDate;
+	public void setInitHour(long initHour) {
+		this.initHour = initHour;
 	}
 
-	public Date getEndDate() {
-		return endDate;
+	public long getEndHour() {
+		return endHour;
 	}
 
-	public void setEndDate(Date endDate) {
-		this.endDate = endDate;
+	public void setEndHour(long endHour) {
+		this.endHour = endHour;
 	}
 
 	public long getSensorId() {
@@ -87,10 +89,19 @@ public class ScheduleRule {
 		this.defaultValue = defaultValue;
 	}
 
+	public boolean isEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
+
 	@Override
 	public String toString() {
-		return "ScheduleRule [id=" + id + ", initDate=" + initDate + ", endDate=" + endDate + ", sensorId=" + sensorId
-				+ ", type=" + type + ", defaultValue=" + defaultValue + "]";
+		return "ScheduleRule [id=" + id + ", initHour=" + initHour + ", endHour=" + endHour + ", sensorId=" + sensorId
+				+ ", type=" + type + ", defaultValue=" + defaultValue + ", enabled=" + enabled + "]";
 	}
+	
 
 }

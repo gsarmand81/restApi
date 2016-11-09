@@ -6,7 +6,7 @@
 		<file>app.log</file>
 		<append>true</append>
 		<encoder>
-			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %class{36}.%M %L - %msg%n</pattern>
+			<pattern>%d{HH:mm:ss.SSS} %-5level [%class{36}]:%M %L - %msg%n</pattern>
 		</encoder>
 	</appender>
 

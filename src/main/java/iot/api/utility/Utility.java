@@ -12,87 +12,125 @@ public class Utility {
 
 	@Value("${name.base.topic}")
 	private String baseTopic;
-	
+
+	//TODO Obtener todo esto de properties
 	public long mapSensor(String topic) {
+
 		//Topic: test_topic/D12/value/set baseTopic: test_topic
 
 		//TODO Convert A0/A1 to sensorId, repensar esta parte es una redundancia 
-		logger.info("Topic: " + topic + " baseTopic: " + baseTopic);
 		String[] data = topic.split("/");
 		String pin = data[1];
 
-		logger.info("PIN: " + pin);
-
-		if (pin.equals("D12")) {
-			return 5l;
-		} else if (pin.equals("D13")) {
-			return 4l;
-		} else if (pin.equals("D2")) {
-			return 0l;
+		long value = -99l;
+		
+		if (pin.equals("D2")) {
+			value = 0l;
 		} else if (pin.equals("A0")) {
-			return 1l;
+			value = 1l;
 		} else if (pin.equals("A1")) {
-			return 2l;
+			value = 2l;
 		} else if (pin.equals("A2")) {
-			return 3l;
-		}
+			value = 3l;
+		} else if (pin.equals("D13")) {
+			value = 4l;
+		} else if (pin.equals("D12")) {
+			value = 5l;
+		}			
 
-		return Long.parseLong(topic.replace(baseTopic, ""));
+		logger.info("Topic: " + topic + " baseTopic: " + baseTopic + " Pin: " + pin + " Value: " + value);
+		
+		return value;
 	}
-	
-	public String tranformData(String topic,String value) {
+
+	//TODO Cambiar a que regrese Double
+	public String transformTemperature(String topic,String value) {
 
 		long id = mapSensor(topic);
 
-		try {
-			if (id == 0) {
-				return value;
-			} else if (id == 1) {			
-				double temp = (Double.parseDouble(value)/1024) * 5000 / 10;
-				logger.info("Temperatura Interna: " + temp);
-				return String.valueOf(temp);
-			} else if (id == 2) {
-				double temp = (Double.parseDouble(value)/1024) * 5000 / 10;
-				logger.info("Temperatura Externa: " + temp);
-				return String.valueOf(temp);
-			} else if (id == 3) {
-				long longValue = Long.parseLong(value);
-				if (longValue < 10) {
-					return "No pressure";
-				} else if (longValue < 200) {
-					return "Light touch";
-				} else if (longValue < 500) {
-					return "Light squeeze";
-				} else if (longValue < 800) {
-					return "Medium squeeze";
-				} else {
-					return "Big squeeze";
-				}
+		if (id == 1 || id == 2) {			
+			double temp = (Double.parseDouble(value)/1024) * 5000 / 10;
+			logger.info("SensorId: " + id + " Temperatura : " + temp);
+			return String.valueOf(temp);
+		}
 
-			} else if (id == 4) {
-				if (value.equals("true")) {
-					return "1";
-				} 
-				if (value.equals("false")) {
-					return "0";
-				} 
-				return value;
-			} else if (id == 5) {
-				if (value.equals("true")) {
-					return "1";
-				} 
-				if (value.equals("false")) {
-					return "0";
-				} 
-				return value;
+		return value;
+	}
+
+	public String transformPressure(String topic,String value) {
+
+		long id = mapSensor(topic);
+
+		if (id == 3) {
+			long longValue = Long.parseLong(value);
+			if (longValue < 10) {
+				return "No pressure";
+			} else if (longValue < 200) {
+				return "Light touch";
+			} else if (longValue < 500) {
+				return "Light squeeze";
+			} else if (longValue < 800) {
+				return "Medium squeeze";
+			} else {
+				return "Big squeeze";
 			}
+		}
 
-		} catch (Exception e) {
-			e.printStackTrace();
+		return value;
+	}
+
+	//TODO Cambiar a que regrese Int
+	public String transformActuator(String topic,String value) {
+
+		long id = mapSensor(topic);
+
+		if (id == 4 || id == 5) {
+			if (value.equals("true")) {
+				return "1";
+			} 
+			if (value.equals("false")) {
+				return "0";
+			} 
 			return value;
 		}
 
-		return "";
+		return value;
+
+	}
+
+	public String tranformGeneralData(String topic,String value) {
+
+		value = transformTemperature(topic, value);
+		value = transformActuator(topic, value);
+
+		return value;
+	}
+
+	public String getPort(long sensorId) {
+
+		if (sensorId == 0l) {
+			return "D2";
+		} else if (sensorId == 1l) {
+			return "A0";
+		} else if (sensorId == 2l) {
+			return "A1";
+		} else if (sensorId == 3l) {
+			return "A2";
+		} else if (sensorId == 4l) {
+			return "D13";
+		} else if (sensorId == 5l) {
+			return "D12";
+		}
+
+		return  "";
+	}
+
+	public String getCompleteNameTopicPublish(long sensorId) {
+		return baseTopic + "/" + getPort(sensorId) + "/value/set";
+	}
+
+	public String getCompleteNameTopicSubscribe(long sensorId) {
+		return baseTopic + "/" + getPort(sensorId) + "/value/get";
 	}
 
 }

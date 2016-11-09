@@ -34,17 +34,16 @@ class SimpleCallback implements MqttCallback {
 	//Called when a new message has arrived
 	public void messageArrived(String topic, MqttMessage message) throws Exception {
 
-		logger.info("-------------------------------------------------");
-		logger.info("| Topic:" + topic);
-		logger.info("| Message: " + new String(message.getPayload()));
-		logger.info("-------------------------------------------------");
+		logger.info("Message Arrived: Topic: " + topic + " Message: " + new String(message.getPayload()));
 
 		try {
 
-			ExecuteHelper persistHelper = (ExecuteHelper)ApplicationContextProvider.getApplicationContext().
-					getBean("persistHelper");
-			persistHelper.execute(topic, message);
-			
+			ExecuteHelper executeHelper = (ExecuteHelper)ApplicationContextProvider.getApplicationContext().
+					getBean("executeHelper");
+
+			if (!(topic.contains("A2") && (new String(message.getPayload())).equals("0")))
+				executeHelper.execute(topic, message);
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -77,6 +76,7 @@ public class MqttPublishSubscribeUtility {
 		try {
 
 			this.topicName = topicName;
+
 			MemoryPersistence persistence = new MemoryPersistence();
 
 			/**
@@ -89,12 +89,13 @@ public class MqttPublishSubscribeUtility {
 				System.exit(-1);
 			}
 
-			logger.info("About to connect to MQTT broker with the following parameters: - BROKER_URL=" + 
-					props.getProperty("BROKER_URL")+" CLIENT_ID="+props.getProperty("CLIENT_ID") + 
-					" TOPIC_NAME: " + topicName);
+			String clientId = props.getProperty("CLIENT_ID") + "-" + topicName;
+			logger.info("About to connect to MQTT broker with the following parameters: BROKER_URL: " +  props.getProperty("BROKER_URL") + 
+					" CLIENT_ID: " + clientId + " TOPIC_NAME: " + topicName);
+
 			MqttClient sampleClient;
 
-			sampleClient = new MqttClient(props.getProperty("BROKER_URL"), props.getProperty("CLIENT_ID")+topicName, persistence);
+			sampleClient = new MqttClient(props.getProperty("BROKER_URL"), clientId, persistence);
 
 			MqttConnectOptions connOpts = new MqttConnectOptions();
 			connOpts.setCleanSession(true);

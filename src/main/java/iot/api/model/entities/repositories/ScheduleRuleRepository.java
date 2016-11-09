@@ -6,10 +6,11 @@ import javax.transaction.Transactional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import iot.api.model.entities.ScheduleRule;
 
 @Transactional
-public interface ScheduleRuleRepository extends JpaRepository<ScheduleRuleRepository, Long> {
+public interface ScheduleRuleRepository extends JpaRepository<ScheduleRule, Long> {
 	
-	List<ScheduleRuleRepository> findAll();
+	List<ScheduleRule> findAll();
 
 }
