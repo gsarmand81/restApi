@@ -1,9 +1,7 @@
-package iot.api.rule.properties;
+package iot.api.rule;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -12,9 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import iot.api.model.entities.Rule;
-import iot.api.model.entities.ScheduleRule;
 import iot.api.model.entities.repositories.RuleRepository;
-import iot.api.model.entities.repositories.ScheduleRuleRepository;
 import iot.api.mqtt.MqttPublishSubscribeUtilityStorage;
 import iot.api.utility.Utility;
 
@@ -28,41 +24,12 @@ public class RulesExecutor {
 	private RuleRepository ruleRepository;
 
 	@Autowired
-	private ScheduleRuleRepository scheduleRuleRepository;
-
-	@Autowired
 	private Utility utility;
 
-	private static final Logger logger = LoggerFactory.getLogger("sys.out.log");
+	private static String  HOUR_FORMAT = "HH:mm";
 
-    private static String  HOUR_FORMAT = "HH:mm";
 
-	public String executeScheduleRules(long sensor_id, String value) {
-
-		List<ScheduleRule> rules = scheduleRuleRepository.findAll();
-		for (ScheduleRule scheduleRule : rules) {
-
-			if (scheduleRule.getSensorId() == sensor_id && scheduleRule.isEnabled()){
-
-				String initHour = Long.toString(scheduleRule.getInitHour());
-				String endHour = Long.toString(scheduleRule.getEndHour());
-								
-		        Calendar cal = Calendar.getInstance();
-		        SimpleDateFormat sdfHour = new SimpleDateFormat(HOUR_FORMAT);
-		        String hour = sdfHour.format(cal.getTime());
-		        
-				logger.info("ExecuteScheduler initHour: " + initHour +
-						" endHour: " + endHour + " hour: " + hour);
-				
-				if(((hour.compareTo(initHour) >= 0)
-		                && (hour.compareTo(endHour) <= 0))) {
-					return Long.toString(scheduleRule.getDefaultValue());
-				}
-			}
-		}
-		
-		return null;
-	}
+	private static final Logger logger = LoggerFactory.getLogger("sys.out.log");    
 
 	public void executeRules(long sensor_id, String value) {
 
@@ -75,15 +42,16 @@ public class RulesExecutor {
 	private void executeRule(Rule rule, long sensor_id, String value) {
 
 		logger.info("Execute Rule: " + rule + " sensor_id: " + sensor_id + " value: " + value);
+		
 		Double doubleValue = Double.parseDouble(value);
 
 		//The rule is enabled and correspond to sensor_id
-		if (rule.getParamId() == sensor_id && rule.isEnable()){
+		if (rule.getParamId() == sensor_id && rule.isEnable() && workingHours(rule)){
 
 			switch(rule.getOperator()) {
 
 			case "=":
-				logger.info("Executing Rule operator: doubleValue: " +
+				logger.info("Executing Rule: doubleValue: " +
 						doubleValue + " ==  rule.getValueCompare(): " + rule.getValueCompare());
 				if (doubleValue == rule.getValueCompare()) {
 
@@ -92,7 +60,7 @@ public class RulesExecutor {
 				break;
 
 			case "<":
-				logger.info("Executing Rule operator: doubleValue: " +
+				logger.info("Executing Rule: doubleValue: " +
 						doubleValue + " <  rule.getValueCompare(): " + rule.getValueCompare());
 				if (doubleValue < rule.getValueCompare()) {
 
@@ -101,7 +69,7 @@ public class RulesExecutor {
 				break;
 
 			case ">":
-				logger.info("Executing Rule operator: doubleValue: " +
+				logger.info("Executing Rule: doubleValue: " +
 						doubleValue + " >  rule.getValueCompare(): " + rule.getValueCompare());
 				if (doubleValue > rule.getValueCompare()) {					
 					send(rule.getParamIdAction(),rule.getValueAction());
@@ -122,6 +90,22 @@ public class RulesExecutor {
 		logger.info("Send stringValue: " + stringValue + " completeNameTopic: " + completeNameTopic);
 
 		mqttClients.getMqttClient(completeNameTopic).mqttConnectNPublishNSubscribe(stringValue);
+
+	}
+
+	private boolean workingHours(Rule rule) {
+
+		Calendar cal = Calendar.getInstance();
+		SimpleDateFormat sdfHour = new SimpleDateFormat(HOUR_FORMAT);
+		String hour = sdfHour.format(cal.getTime());
+
+		System.out.println("ExecuteScheduler initHour: " + rule.getInitHour() +
+				" endHour: " + rule.getEndHour() + " hour: " + hour);
+		System.out.println("Validation: " + ((hour.compareTo(rule.getInitHour()) >= 0)
+				&& (hour.compareTo(rule.getEndHour()) <= 0)));
+		
+		return ((hour.compareTo(rule.getInitHour()) >= 0)
+				&& (hour.compareTo(rule.getEndHour()) <= 0));
 
 	}
 }
