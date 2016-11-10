@@ -1,26 +1,29 @@
 package iot.api.controllers;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import iot.api.rule.RulesExecutor;
+import iot.api.utility.ExecuteHelper;
 
 
 @Controller
 public class TestController {
 
+	private static final Logger logger = LoggerFactory.getLogger("sys.out.log");
+
 	@Autowired
-	private RulesExecutor executeRules;
+	private ExecuteHelper executeHelper;
 	
 	@RequestMapping("/test")
 	@ResponseBody
 	public String test() {
 		
-		System.out.println("Entra a Test!");
+		logger.info("[TestController] Entra a Test ......");
 		
-		executeRules.executeRules(0l,"1200");
 		
 		return "Invoke Success!!";
 	}

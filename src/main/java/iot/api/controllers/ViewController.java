@@ -21,6 +21,7 @@ import iot.api.model.entities.repositories.SensorEventRepository;
 import iot.api.model.entities.repositories.SensorRepository;
 import iot.api.model.entities.repositories.StoreRepository;
 import iot.api.mqtt.MqttPublishSubscribeUtilityStorage;
+import iot.api.utility.ExecuteHelper;
 
 @Controller
 public class ViewController {
@@ -41,6 +42,9 @@ public class ViewController {
 
 	@Autowired
 	private MqttPublishSubscribeUtilityStorage mqttClients;
+	
+	@Autowired
+	private ExecuteHelper executeHelper;
 
 	@RequestMapping(value = {"/","/store"})
 	public String store(Model model) {   
@@ -59,7 +63,7 @@ public class ViewController {
 		List<Fridge> fridges = store.getFridges();
 		
 		completeFridgeData(fridges);
-
+			
 		model.addAttribute("store", store);
 		model.addAttribute("fridges", fridges);
 		
@@ -177,8 +181,12 @@ public class ViewController {
 		//GET last data for each fridge.
 		for (Iterator iterator = fridges.iterator(); iterator.hasNext();) {
 			Fridge fridge = (Fridge) iterator.next();
+			
 			events = getLastDataByFridge(fridge);
+			long consume = executeHelper.statisticsPower(fridge.getId());
+			
 			fridge.setLastData(events);
+			fridge.setConsume(consume);
 		}
 
 	}

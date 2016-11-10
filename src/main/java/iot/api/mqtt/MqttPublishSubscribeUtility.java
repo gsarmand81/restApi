@@ -15,6 +15,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import iot.api.ApplicationContextProvider;
+import iot.api.model.entities.SensorEvent;
+import iot.api.model.entities.repositories.SensorEventRepository;
 import iot.api.utility.ExecuteHelper;
 
 
@@ -41,8 +43,19 @@ class SimpleCallback implements MqttCallback {
 			ExecuteHelper executeHelper = (ExecuteHelper)ApplicationContextProvider.getApplicationContext().
 					getBean("executeHelper");
 
-			if (!(topic.contains("A2") && (new String(message.getPayload())).equals("0")))
+			SensorEventRepository sensorEventRepository = (SensorEventRepository)ApplicationContextProvider.getApplicationContext().
+					getBean("sensorEventRepository");
+
+			SensorEvent event = sensorEventRepository.findTop1ByFridgeIdAndSensorIdOrderByTimestampDesc(0l, 3l);
+
+			boolean flag = false;
+			if (event !=  null) {
+				flag = event.getValue().equals("0");
+			}		
+
+			if (!(topic.contains("A2") && (new String(message.getPayload())).equals("0") &&  flag)) {
 				executeHelper.execute(topic, message);
+			}
 
 		} catch (Exception e) {
 			e.printStackTrace();

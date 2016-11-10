@@ -1,7 +1,6 @@
 package iot.api.utility;
 
 import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -24,7 +23,9 @@ import iot.api.model.entities.repositories.SensorEventRepository;
 @Component
 public class ExecuteHelper {
 
-	private static final Logger logger = LoggerFactory.getLogger("sys.out.log");
+	private static final Logger logger_out = LoggerFactory.getLogger("sys.out.log");
+
+	private static final Logger logger_stat = LoggerFactory.getLogger("sys.out.stat");
 
 	@Autowired
 	private FridgeRepository fridgeRepository;
@@ -49,7 +50,7 @@ public class ExecuteHelper {
 		Long sensorId = utility.mapSensor(topic);		
 		String value = utility.tranformGeneralData(topic, new String(message.getPayload()));
 
-		logger.info("Values to execute SensorId: " + sensorId + " Value: " + value);
+		logger_out.info("Values to execute SensorId: " + sensorId + " Value: " + value);
 
 		persist(sensorId,value);
 
@@ -72,48 +73,81 @@ public class ExecuteHelper {
 			sensorEventRepository.save(sensorEvent);
 
 		} catch (Exception e) {
-			logger.error(e.getMessage());
+			logger_out.error(e.getMessage());
 			e.printStackTrace();
 		}
 	}
 
-	public void statisticsPower() {
+	public long statisticsPower(long fridgeId) {
 
 		List<SensorEvent> thermostatData = sensorEventRepository.
-				findByFridgeIdAndSensorIdOrderByTimestampDesc(0l,4l);
+				findByFridgeIdAndSensorIdOrderByTimestampAsc(fridgeId,4l);
 		List<SensorEvent> lightData = sensorEventRepository.
-				findByFridgeIdAndSensorIdOrderByTimestampDesc(0l,5l);
-
-		ListIterator<SensorEvent> thermostatDataIterator = thermostatData.listIterator();
-		ListIterator<SensorEvent> lightDataIterator = lightData.listIterator();
-
-
-		while (thermostatDataIterator.hasNext()) {
-
-			SensorEvent next = thermostatDataIterator.next();
-			int previousIndex = thermostatDataIterator.previousIndex();
-			SensorEvent previous = thermostatData.get(previousIndex);
-			
-			logger.info("----------------------------------------------------------------");
-			logger.info("Next[Id]: " + next.getId() + "Next[TimeStamp]: " + 
-					next.getTimestamp() + "Next[Value]: " + next.getValue());			
-			logger.info("PreviousIndex: " + previousIndex);			 
-			logger.info("Previous[Id]: " + previous.getId() + "Previous[TimeStamp]: " + 
-					previous.getTimestamp() + "Previous[Value]: " + previous.getValue());	
-			logger.info("----------------------------------------------------------------");
-			
-			//TODO Obtener diferencia de tiempo entre next y previous
-			//TODO Escenarios:
-			//	   Previous Next  	Suma
-			//     1		1		Si		 	
-			//     1		0		Si
-			//	   0		1		No
-			//     0		0		No
-
-		}
-
-
+				findByFridgeIdAndSensorIdOrderByTimestampAsc(fridgeId,5l);
+		
+		logger_stat.info("Calculate Thermostat");
+		long totalThermostat = calculateData(thermostatData);
+		logger_stat.info("Calculate Lightt");
+		long totalLightData = calculateData(lightData);
+		
+		//TODO Para sacar el consumo total tengo divir el tiempo entre 3,600,000 para convertilo en hora
+		// y multiplicarlo por Kw respectivo para termostato y luz
+		long totalStatistics = totalThermostat + totalLightData;
+		logger_stat.info("totalStatistics: " + totalStatistics);
+		
+		return totalStatistics;
 
 	}
 
+
+	private long calculateData(List<SensorEvent> data) {
+
+		ListIterator<SensorEvent> iterator = data.listIterator();
+		
+		long total = 0;
+
+		while (iterator.hasNext()) {
+
+			SensorEvent next = iterator.next();
+			int previousIndex = iterator.previousIndex() - 1;
+
+			if (previousIndex >= 0) {
+
+				SensorEvent previous = data.get(previousIndex);
+
+				logger_stat.info("----------------------------------------------------------------");
+				logger_stat.info("Next[Id]: " + next.getId() + " Next[TimeStamp]: " + 
+						next.getTimestamp() + " Next[Value]: " + next.getValue());			
+				logger_stat.info("PreviousIndex: " + previousIndex);			 
+				logger_stat.info("Previous[Id]: " + previous.getId() + " Previous[TimeStamp]: " + 
+						previous.getTimestamp() + " Previous[Value]: " + previous.getValue());					
+
+				//Ontengo la diferencia en milisegundos.
+				long diff = next.getTimestamp().getTime() - previous.getTimestamp().getTime();
+				logger_stat.info("Diff: " + diff + " [ms]");
+
+				//	   Next 	Previous 	Suma
+				//     1		1			Si		 	
+				//     0		1			Si
+				//	   1		0			No
+				//     0		0			No
+
+				
+				if (next.getValue().equals("1") && previous.getValue().equals("1")) {
+					total = total + diff;
+				} else if (next.getValue().equals("0") && previous.getValue().equals("1")) {
+					total = total + diff;
+				}
+
+				logger_stat.info("Total: " + total + " [ms]");
+
+				logger_stat.info("----------------------------------------------------------------");
+
+			}
+		}
+
+		return total;
+	}
 }
+
+

@@ -55,7 +55,7 @@ cd /usr/lib/jvm/jdk-7-oracle-armhf/jre/lib/arm
  /usr/lib/jvm/java-8-oracle
 
 Crear enlace simbolico
-ln -s /dev/ttyACM0 /dev/ttyS80
+sudo ln -s /dev/ttyACM0 /dev/ttyS80
 
 
 ## Install Mosquitto	
@@ -74,7 +74,7 @@ mosquitto_pub -h 127.0.0.1 -i testPublish -t test_topic/D12/value/set -m 'true'
 mosquitto_sub -h 127.0.0.1 -i testListener -t test_topic/D12/value/get
 mosquitto_sub -h 127.0.0.1 -i testListener -t test_topic/D2/value/get
 
-mosquitto_pub -h 127.0.0.1 -i testPublish -t test_topic/D2/value/set -m 'true'
+mosquitto_pub -h 127.0.0.1 -i testPublish -t test_topic/D12/value/set -m 'true'
 mosquitto_sub -h 127.0.0.1 -i testListener -t test_topic/D12/value/get
 
 
