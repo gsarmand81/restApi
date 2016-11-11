@@ -54,15 +54,22 @@
 									<option value="true">Prendido</option>
 									<option value="false">Apagado</option>
 							</select> 
-							<!-- 
-							<input type="text" name="sensor_value" style="width: 250px" />
-							 -->
+												 
+							</td>
+							<td style="border-style: none;"></td>
+						</tr>
+						<tr style="border-style: none;">
+							<td style="border-style: none;">Tiempo [s]</td>
+							<td style="border-style: none;">		 
+							<input type="text" name="time" style="width: 250px" value="0" />
+														
 							<input type="hidden" name="store_id" th:value="${store.id}" /> 
 							<input type="hidden" name="fridge_id" th:value="${fridge.id}" /> 
 							<input type="hidden" name="sensor_id" th:value="${sensor.id}" />
 							</td>
 							<td style="border-style: none;"></td>
 						</tr>
+						
 
 						<tr style="border-style: none;">
 							<td style="border-style: none;"></td>

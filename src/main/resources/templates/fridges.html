@@ -51,13 +51,13 @@
 										<td th:text="${event.timestamp}">2016-05-19</td>
 										<td th:text="${event.sensor.name}">Temperatura Exterior</td>
 										<td th:text="${event.sensor.type}">sen</td>
-										<td th:text="${event.value}">10° C</td> <span
-										th:switch="${event.sensor.type}">
+										<td th:text="${event.value}">10° C</td> 
+										<span th:switch="${event.sensor.type}">
 											<td th:case="'Actuador'"><a href="modifyFridge.html"
 												th:href="@{/modifyFridge(store_id=${store.id},fridge_id=${fridge.id},sensor_id=${event.sensor.id})}">Modificar</a>
-										</td>
+											</td>
 											<td th:case="'Sensor'"><a href="#">NA</a></td>
-									</span>
+										</span>
 									</span>
 								</tr>
 

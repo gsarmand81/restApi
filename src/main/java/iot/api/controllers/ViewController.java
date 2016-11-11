@@ -91,7 +91,7 @@ public class ViewController {
 	@RequestMapping("/modifyParamter")
 	public String send(@RequestParam(value="store_id") long store_id,
 			@RequestParam(value="fridge_id") long fridge_id, @RequestParam(value="sensor_id") long sensor_id,
-			@RequestParam(value="sensor_value") String sensor_value, Model model) {
+			@RequestParam(value="sensor_value") String sensor_value,@RequestParam(value="time") String time, Model model) {
 
 		//TODO Poner esta logica en un lugar adecuado
 		//------------------------------------------------------
@@ -102,9 +102,30 @@ public class ViewController {
 		} else if (sensor_id == 4) {
 			completeNameTopic = "test_topic/D13/value/set";
 		}
+		
+		final String threadCompleteNameTopic= completeNameTopic;
 
 		mqttClients.getMqttClient(completeNameTopic).mqttConnectNPublishNSubscribe(sensor_value);
 
+		if (!time.equals("0") && sensor_value.equals("true")) {
+		
+			Thread thread = new Thread(){
+			    public void run(){
+			 
+			    	try {
+						Thread.sleep(Long.parseLong(time)*1000);
+					} catch (InterruptedException e) {		
+						e.printStackTrace();
+					}	
+					mqttClients.getMqttClient(threadCompleteNameTopic).mqttConnectNPublishNSubscribe("false");
+
+			    }
+			  };
+
+			  thread.start();
+			
+		}
+		
 		try {
 			Thread.sleep(1000l);
 		} catch (InterruptedException e) {		
