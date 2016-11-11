@@ -11,8 +11,9 @@ import org.springframework.context.annotation.Configuration;
 
 import iot.api.mqtt.MqttPublishSubscribeUtilityStorage;
 
-@SpringBootApplication
+
 @Configuration
+@SpringBootApplication
 public class Application {
 
 	private static final Logger logger = LoggerFactory.getLogger("sys.out.log");

@@ -55,7 +55,7 @@ cd /usr/lib/jvm/jdk-7-oracle-armhf/jre/lib/arm
  /usr/lib/jvm/java-8-oracle
 
 Crear enlace simbolico
-ln -s /dev/ttyACM0 /dev/ttyS80
+sudo ln -s /dev/ttyACM0 /dev/ttyS80
 
 
 ## Install Mosquitto	
@@ -73,6 +73,9 @@ mosquitto_sub -h 127.0.0.1 -i testPressure -t test_topic/A2/value/get
 mosquitto_pub -h 127.0.0.1 -i testPublish -t test_topic/D12/value/set -m 'true'
 mosquitto_sub -h 127.0.0.1 -i testListener -t test_topic/D12/value/get
 mosquitto_sub -h 127.0.0.1 -i testListener -t test_topic/D2/value/get
+
+mosquitto_pub -h 127.0.0.1 -i testPublish -t test_topic/D12/value/set -m 'true'
+mosquitto_sub -h 127.0.0.1 -i testListener -t test_topic/D12/value/get
 
 
 sudo java -jar lib/ardulink-mqtt-0.6.1.jar -brokerHost 127.0.0.1 -brokerPort 1883 -brokerTopic test_topic -control --analog 0 --analog 1 --analog 2 --digital 2 -athms 1000 
@@ -178,3 +181,6 @@ curl 'http://localhost:8080/mqtt?topic=test_topic/D12/value/set&message=false'
 I'm not an expert, but try to put 0.1uF capacitors, from A0 to GND and from A1 to GND, it might help.
 http://panamahitek.com/herramienta-de-control-para-arduino-el-triac-conmutador-para-corriente-alterna/
 
+
+https://mx.answers.yahoo.com/question/index?qid=20120217090955AAP2978
+https://mx.answers.yahoo.com/question/index?qid=20110313085543AAiu35V

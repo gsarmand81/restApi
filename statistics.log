@@ -1,0 +1,1356 @@
+23:41:36.633 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 90 - Calculate Thermostat
+23:41:36.634 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.635 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60375 Next[TimeStamp]: 2016-11-09 00:53:46.0 Next[Value]: 1
+23:41:36.635 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 0
+23:41:36.636 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60319 Previous[TimeStamp]: 2016-11-09 00:49:21.0 Previous[Value]: 0
+23:41:36.636 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 265000 [ms]
+23:41:36.636 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 0 [ms]
+23:41:36.636 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.637 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.637 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60377 Next[TimeStamp]: 2016-11-09 00:53:47.0 Next[Value]: 1
+23:41:36.637 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 1
+23:41:36.637 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60375 Previous[TimeStamp]: 2016-11-09 00:53:46.0 Previous[Value]: 1
+23:41:36.637 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.637 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 1000 [ms]
+23:41:36.638 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.638 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.638 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60379 Next[TimeStamp]: 2016-11-09 00:53:48.0 Next[Value]: 1
+23:41:36.639 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 2
+23:41:36.640 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60377 Previous[TimeStamp]: 2016-11-09 00:53:47.0 Previous[Value]: 1
+23:41:36.641 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.642 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 2000 [ms]
+23:41:36.642 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.642 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.643 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60381 Next[TimeStamp]: 2016-11-09 00:53:49.0 Next[Value]: 1
+23:41:36.643 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 3
+23:41:36.643 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60379 Previous[TimeStamp]: 2016-11-09 00:53:48.0 Previous[Value]: 1
+23:41:36.643 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.644 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 3000 [ms]
+23:41:36.644 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.644 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.644 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60384 Next[TimeStamp]: 2016-11-09 00:53:51.0 Next[Value]: 1
+23:41:36.645 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 4
+23:41:36.645 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60381 Previous[TimeStamp]: 2016-11-09 00:53:49.0 Previous[Value]: 1
+23:41:36.645 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:41:36.645 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 5000 [ms]
+23:41:36.645 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.646 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.646 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60386 Next[TimeStamp]: 2016-11-09 00:53:52.0 Next[Value]: 1
+23:41:36.646 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 5
+23:41:36.647 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60384 Previous[TimeStamp]: 2016-11-09 00:53:51.0 Previous[Value]: 1
+23:41:36.647 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.647 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 6000 [ms]
+23:41:36.648 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.648 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.648 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60388 Next[TimeStamp]: 2016-11-09 00:53:53.0 Next[Value]: 1
+23:41:36.648 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 6
+23:41:36.649 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60386 Previous[TimeStamp]: 2016-11-09 00:53:52.0 Previous[Value]: 1
+23:41:36.649 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.649 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 7000 [ms]
+23:41:36.649 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.650 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.650 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60390 Next[TimeStamp]: 2016-11-09 00:53:55.0 Next[Value]: 1
+23:41:36.650 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 7
+23:41:36.650 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60388 Previous[TimeStamp]: 2016-11-09 00:53:53.0 Previous[Value]: 1
+23:41:36.651 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:41:36.651 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 9000 [ms]
+23:41:36.651 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.651 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.651 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60392 Next[TimeStamp]: 2016-11-09 00:53:57.0 Next[Value]: 1
+23:41:36.651 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 8
+23:41:36.652 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60390 Previous[TimeStamp]: 2016-11-09 00:53:55.0 Previous[Value]: 1
+23:41:36.652 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:41:36.652 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 11000 [ms]
+23:41:36.652 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.652 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.653 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60394 Next[TimeStamp]: 2016-11-09 00:53:58.0 Next[Value]: 1
+23:41:36.653 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 9
+23:41:36.653 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60392 Previous[TimeStamp]: 2016-11-09 00:53:57.0 Previous[Value]: 1
+23:41:36.653 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.653 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 12000 [ms]
+23:41:36.653 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.654 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.654 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60396 Next[TimeStamp]: 2016-11-09 00:53:59.0 Next[Value]: 1
+23:41:36.654 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 10
+23:41:36.655 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60394 Previous[TimeStamp]: 2016-11-09 00:53:58.0 Previous[Value]: 1
+23:41:36.655 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.656 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 13000 [ms]
+23:41:36.656 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.656 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.657 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60399 Next[TimeStamp]: 2016-11-09 00:54:00.0 Next[Value]: 1
+23:41:36.657 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 11
+23:41:36.657 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60396 Previous[TimeStamp]: 2016-11-09 00:53:59.0 Previous[Value]: 1
+23:41:36.657 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.657 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 14000 [ms]
+23:41:36.657 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.658 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.658 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60401 Next[TimeStamp]: 2016-11-09 00:54:01.0 Next[Value]: 1
+23:41:36.658 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 12
+23:41:36.658 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60399 Previous[TimeStamp]: 2016-11-09 00:54:00.0 Previous[Value]: 1
+23:41:36.658 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.659 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 15000 [ms]
+23:41:36.659 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.659 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.659 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60403 Next[TimeStamp]: 2016-11-09 00:54:03.0 Next[Value]: 1
+23:41:36.659 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 13
+23:41:36.659 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60401 Previous[TimeStamp]: 2016-11-09 00:54:01.0 Previous[Value]: 1
+23:41:36.660 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:41:36.660 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 17000 [ms]
+23:41:36.660 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.660 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.660 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60407 Next[TimeStamp]: 2016-11-09 00:54:04.0 Next[Value]: 1
+23:41:36.661 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 14
+23:41:36.661 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60403 Previous[TimeStamp]: 2016-11-09 00:54:03.0 Previous[Value]: 1
+23:41:36.661 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.661 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 18000 [ms]
+23:41:36.661 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.662 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.662 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60409 Next[TimeStamp]: 2016-11-09 00:54:09.0 Next[Value]: 1
+23:41:36.662 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 15
+23:41:36.662 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60407 Previous[TimeStamp]: 2016-11-09 00:54:04.0 Previous[Value]: 1
+23:41:36.662 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:41:36.663 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 23000 [ms]
+23:41:36.663 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.663 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.663 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60411 Next[TimeStamp]: 2016-11-09 00:54:12.0 Next[Value]: 1
+23:41:36.663 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 16
+23:41:36.664 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60409 Previous[TimeStamp]: 2016-11-09 00:54:09.0 Previous[Value]: 1
+23:41:36.664 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.664 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 26000 [ms]
+23:41:36.665 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.665 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.665 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60416 Next[TimeStamp]: 2016-11-09 00:54:18.0 Next[Value]: 1
+23:41:36.665 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 17
+23:41:36.665 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60411 Previous[TimeStamp]: 2016-11-09 00:54:12.0 Previous[Value]: 1
+23:41:36.666 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 6000 [ms]
+23:41:36.666 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 32000 [ms]
+23:41:36.666 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.666 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.666 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60418 Next[TimeStamp]: 2016-11-09 00:54:19.0 Next[Value]: 1
+23:41:36.667 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 18
+23:41:36.667 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60416 Previous[TimeStamp]: 2016-11-09 00:54:18.0 Previous[Value]: 1
+23:41:36.667 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.667 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 33000 [ms]
+23:41:36.667 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.667 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.668 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60420 Next[TimeStamp]: 2016-11-09 00:54:20.0 Next[Value]: 1
+23:41:36.668 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 19
+23:41:36.668 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60418 Previous[TimeStamp]: 2016-11-09 00:54:19.0 Previous[Value]: 1
+23:41:36.668 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.669 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 34000 [ms]
+23:41:36.669 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.669 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.669 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60422 Next[TimeStamp]: 2016-11-09 00:54:21.0 Next[Value]: 1
+23:41:36.670 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 20
+23:41:36.670 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60420 Previous[TimeStamp]: 2016-11-09 00:54:20.0 Previous[Value]: 1
+23:41:36.670 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.671 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 35000 [ms]
+23:41:36.672 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.672 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.673 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60424 Next[TimeStamp]: 2016-11-09 00:54:22.0 Next[Value]: 1
+23:41:36.673 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 21
+23:41:36.673 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60422 Previous[TimeStamp]: 2016-11-09 00:54:21.0 Previous[Value]: 1
+23:41:36.674 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.674 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 36000 [ms]
+23:41:36.676 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.677 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.678 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60426 Next[TimeStamp]: 2016-11-09 00:54:23.0 Next[Value]: 1
+23:41:36.679 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 22
+23:41:36.679 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60424 Previous[TimeStamp]: 2016-11-09 00:54:22.0 Previous[Value]: 1
+23:41:36.680 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:41:36.680 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 37000 [ms]
+23:41:36.680 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.681 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.681 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60438 Next[TimeStamp]: 2016-11-09 00:54:58.0 Next[Value]: 0
+23:41:36.681 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 23
+23:41:36.682 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60426 Previous[TimeStamp]: 2016-11-09 00:54:23.0 Previous[Value]: 1
+23:41:36.682 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 35000 [ms]
+23:41:36.682 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 72000 [ms]
+23:41:36.682 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.683 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.683 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60518 Next[TimeStamp]: 2016-11-09 22:30:42.0 Next[Value]: 1
+23:41:36.683 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 24
+23:41:36.684 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60438 Previous[TimeStamp]: 2016-11-09 00:54:58.0 Previous[Value]: 0
+23:41:36.684 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 77744000 [ms]
+23:41:36.684 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 72000 [ms]
+23:41:36.684 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.685 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.685 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60519 Next[TimeStamp]: 2016-11-09 22:30:52.0 Next[Value]: 0
+23:41:36.685 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 25
+23:41:36.686 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60518 Previous[TimeStamp]: 2016-11-09 22:30:42.0 Previous[Value]: 1
+23:41:36.686 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 10000 [ms]
+23:41:36.686 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 82000 [ms]
+23:41:36.686 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.687 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 92 - Calculate Lightt
+23:41:36.687 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.687 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60311 Next[TimeStamp]: 2016-11-09 00:48:42.0 Next[Value]: 0
+23:41:36.687 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 0
+23:41:36.688 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60309 Previous[TimeStamp]: 2016-11-09 00:48:31.0 Previous[Value]: 1
+23:41:36.688 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 11000 [ms]
+23:41:36.689 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 11000 [ms]
+23:41:36.689 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.689 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.689 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60313 Next[TimeStamp]: 2016-11-09 00:48:46.0 Next[Value]: 1
+23:41:36.690 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 1
+23:41:36.690 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60311 Previous[TimeStamp]: 2016-11-09 00:48:42.0 Previous[Value]: 0
+23:41:36.690 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 4000 [ms]
+23:41:36.690 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 11000 [ms]
+23:41:36.691 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.691 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.691 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60315 Next[TimeStamp]: 2016-11-09 00:49:17.0 Next[Value]: 0
+23:41:36.691 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 2
+23:41:36.692 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60313 Previous[TimeStamp]: 2016-11-09 00:48:46.0 Previous[Value]: 1
+23:41:36.692 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 31000 [ms]
+23:41:36.692 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 42000 [ms]
+23:41:36.693 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.693 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.693 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60317 Next[TimeStamp]: 2016-11-09 00:49:20.0 Next[Value]: 1
+23:41:36.693 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 3
+23:41:36.694 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60315 Previous[TimeStamp]: 2016-11-09 00:49:17.0 Previous[Value]: 0
+23:41:36.694 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.695 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 42000 [ms]
+23:41:36.696 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.697 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.698 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60321 Next[TimeStamp]: 2016-11-09 00:49:28.0 Next[Value]: 0
+23:41:36.699 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 4
+23:41:36.699 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60317 Previous[TimeStamp]: 2016-11-09 00:49:20.0 Previous[Value]: 1
+23:41:36.699 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 8000 [ms]
+23:41:36.699 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 50000 [ms]
+23:41:36.700 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.700 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.700 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60323 Next[TimeStamp]: 2016-11-09 00:49:31.0 Next[Value]: 1
+23:41:36.700 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 5
+23:41:36.701 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60321 Previous[TimeStamp]: 2016-11-09 00:49:28.0 Previous[Value]: 0
+23:41:36.701 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.701 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 50000 [ms]
+23:41:36.702 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.702 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.702 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60325 Next[TimeStamp]: 2016-11-09 00:50:18.0 Next[Value]: 0
+23:41:36.702 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 6
+23:41:36.703 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60323 Previous[TimeStamp]: 2016-11-09 00:49:31.0 Previous[Value]: 1
+23:41:36.703 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 47000 [ms]
+23:41:36.703 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 97000 [ms]
+23:41:36.703 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.704 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.704 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60327 Next[TimeStamp]: 2016-11-09 00:50:20.0 Next[Value]: 1
+23:41:36.704 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 7
+23:41:36.705 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60325 Previous[TimeStamp]: 2016-11-09 00:50:18.0 Previous[Value]: 0
+23:41:36.705 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:41:36.705 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 97000 [ms]
+23:41:36.706 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.706 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.706 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60329 Next[TimeStamp]: 2016-11-09 00:50:25.0 Next[Value]: 0
+23:41:36.707 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 8
+23:41:36.707 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60327 Previous[TimeStamp]: 2016-11-09 00:50:20.0 Previous[Value]: 1
+23:41:36.707 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:41:36.708 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 102000 [ms]
+23:41:36.708 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.708 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.708 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60331 Next[TimeStamp]: 2016-11-09 00:50:28.0 Next[Value]: 1
+23:41:36.709 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 9
+23:41:36.709 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60329 Previous[TimeStamp]: 2016-11-09 00:50:25.0 Previous[Value]: 0
+23:41:36.709 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.709 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 102000 [ms]
+23:41:36.710 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.710 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.710 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60333 Next[TimeStamp]: 2016-11-09 00:50:30.0 Next[Value]: 0
+23:41:36.711 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 10
+23:41:36.711 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60331 Previous[TimeStamp]: 2016-11-09 00:50:28.0 Previous[Value]: 1
+23:41:36.711 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:41:36.712 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 104000 [ms]
+23:41:36.712 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.712 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.712 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60335 Next[TimeStamp]: 2016-11-09 00:50:35.0 Next[Value]: 1
+23:41:36.713 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 11
+23:41:36.713 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60333 Previous[TimeStamp]: 2016-11-09 00:50:30.0 Previous[Value]: 0
+23:41:36.713 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:41:36.713 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 104000 [ms]
+23:41:36.714 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.714 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.715 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60337 Next[TimeStamp]: 2016-11-09 00:51:36.0 Next[Value]: 0
+23:41:36.716 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 12
+23:41:36.717 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60335 Previous[TimeStamp]: 2016-11-09 00:50:35.0 Previous[Value]: 1
+23:41:36.717 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 61000 [ms]
+23:41:36.717 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 165000 [ms]
+23:41:36.718 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.718 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.718 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60339 Next[TimeStamp]: 2016-11-09 00:51:39.0 Next[Value]: 1
+23:41:36.718 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 13
+23:41:36.719 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60337 Previous[TimeStamp]: 2016-11-09 00:51:36.0 Previous[Value]: 0
+23:41:36.719 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.719 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 165000 [ms]
+23:41:36.719 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.720 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.720 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60341 Next[TimeStamp]: 2016-11-09 00:51:46.0 Next[Value]: 0
+23:41:36.720 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 14
+23:41:36.720 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60339 Previous[TimeStamp]: 2016-11-09 00:51:39.0 Previous[Value]: 1
+23:41:36.721 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 7000 [ms]
+23:41:36.721 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 172000 [ms]
+23:41:36.721 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.721 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.722 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60343 Next[TimeStamp]: 2016-11-09 00:51:49.0 Next[Value]: 1
+23:41:36.722 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 15
+23:41:36.722 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60341 Previous[TimeStamp]: 2016-11-09 00:51:46.0 Previous[Value]: 0
+23:41:36.723 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.723 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 172000 [ms]
+23:41:36.723 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.723 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.724 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60345 Next[TimeStamp]: 2016-11-09 00:52:15.0 Next[Value]: 0
+23:41:36.724 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 16
+23:41:36.724 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60343 Previous[TimeStamp]: 2016-11-09 00:51:49.0 Previous[Value]: 1
+23:41:36.724 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 26000 [ms]
+23:41:36.725 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 198000 [ms]
+23:41:36.725 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.725 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.726 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60347 Next[TimeStamp]: 2016-11-09 00:52:23.0 Next[Value]: 1
+23:41:36.726 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 17
+23:41:36.726 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60345 Previous[TimeStamp]: 2016-11-09 00:52:15.0 Previous[Value]: 0
+23:41:36.726 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 8000 [ms]
+23:41:36.727 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 198000 [ms]
+23:41:36.727 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.727 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.727 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60349 Next[TimeStamp]: 2016-11-09 00:52:35.0 Next[Value]: 0
+23:41:36.728 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 18
+23:41:36.730 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60347 Previous[TimeStamp]: 2016-11-09 00:52:23.0 Previous[Value]: 1
+23:41:36.731 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 12000 [ms]
+23:41:36.732 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 210000 [ms]
+23:41:36.732 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.733 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.733 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60351 Next[TimeStamp]: 2016-11-09 00:52:38.0 Next[Value]: 1
+23:41:36.734 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 19
+23:41:36.734 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60349 Previous[TimeStamp]: 2016-11-09 00:52:35.0 Previous[Value]: 0
+23:41:36.734 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.734 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 210000 [ms]
+23:41:36.735 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.735 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.735 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60353 Next[TimeStamp]: 2016-11-09 00:52:48.0 Next[Value]: 0
+23:41:36.736 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 20
+23:41:36.736 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60351 Previous[TimeStamp]: 2016-11-09 00:52:38.0 Previous[Value]: 1
+23:41:36.736 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 10000 [ms]
+23:41:36.736 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 220000 [ms]
+23:41:36.737 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.737 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.737 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60355 Next[TimeStamp]: 2016-11-09 00:52:51.0 Next[Value]: 1
+23:41:36.737 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 21
+23:41:36.738 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60353 Previous[TimeStamp]: 2016-11-09 00:52:48.0 Previous[Value]: 0
+23:41:36.738 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.738 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 220000 [ms]
+23:41:36.738 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.739 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.739 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60359 Next[TimeStamp]: 2016-11-09 00:53:12.0 Next[Value]: 0
+23:41:36.739 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 22
+23:41:36.739 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60355 Previous[TimeStamp]: 2016-11-09 00:52:51.0 Previous[Value]: 1
+23:41:36.740 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 21000 [ms]
+23:41:36.740 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 241000 [ms]
+23:41:36.740 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.740 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.741 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60363 Next[TimeStamp]: 2016-11-09 00:53:14.0 Next[Value]: 1
+23:41:36.741 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 23
+23:41:36.741 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60359 Previous[TimeStamp]: 2016-11-09 00:53:12.0 Previous[Value]: 0
+23:41:36.741 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:41:36.742 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 241000 [ms]
+23:41:36.742 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.742 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.743 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60406 Next[TimeStamp]: 2016-11-09 00:54:04.0 Next[Value]: 0
+23:41:36.743 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 24
+23:41:36.743 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60363 Previous[TimeStamp]: 2016-11-09 00:53:14.0 Previous[Value]: 1
+23:41:36.743 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 50000 [ms]
+23:41:36.744 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 291000 [ms]
+23:41:36.744 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.744 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.745 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60414 Next[TimeStamp]: 2016-11-09 00:54:15.0 Next[Value]: 1
+23:41:36.746 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 25
+23:41:36.748 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60406 Previous[TimeStamp]: 2016-11-09 00:54:04.0 Previous[Value]: 0
+23:41:36.750 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 11000 [ms]
+23:41:36.750 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 291000 [ms]
+23:41:36.750 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.751 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.751 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60429 Next[TimeStamp]: 2016-11-09 00:54:34.0 Next[Value]: 0
+23:41:36.751 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 26
+23:41:36.752 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60414 Previous[TimeStamp]: 2016-11-09 00:54:15.0 Previous[Value]: 1
+23:41:36.752 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 19000 [ms]
+23:41:36.752 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 310000 [ms]
+23:41:36.752 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.753 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.753 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60431 Next[TimeStamp]: 2016-11-09 00:54:39.0 Next[Value]: 1
+23:41:36.753 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 27
+23:41:36.753 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60429 Previous[TimeStamp]: 2016-11-09 00:54:34.0 Previous[Value]: 0
+23:41:36.753 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:41:36.753 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 310000 [ms]
+23:41:36.754 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.754 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.754 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60434 Next[TimeStamp]: 2016-11-09 00:54:43.0 Next[Value]: 0
+23:41:36.754 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 28
+23:41:36.754 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60431 Previous[TimeStamp]: 2016-11-09 00:54:39.0 Previous[Value]: 1
+23:41:36.754 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 4000 [ms]
+23:41:36.754 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 314000 [ms]
+23:41:36.755 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.755 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.755 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60436 Next[TimeStamp]: 2016-11-09 00:54:52.0 Next[Value]: 1
+23:41:36.755 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 29
+23:41:36.755 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60434 Previous[TimeStamp]: 2016-11-09 00:54:43.0 Previous[Value]: 0
+23:41:36.755 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 9000 [ms]
+23:41:36.756 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 314000 [ms]
+23:41:36.756 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.756 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.756 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60442 Next[TimeStamp]: 2016-11-09 00:55:20.0 Next[Value]: 0
+23:41:36.756 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 30
+23:41:36.756 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60436 Previous[TimeStamp]: 2016-11-09 00:54:52.0 Previous[Value]: 1
+23:41:36.756 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 28000 [ms]
+23:41:36.757 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 342000 [ms]
+23:41:36.757 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.757 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.757 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60444 Next[TimeStamp]: 2016-11-09 00:55:25.0 Next[Value]: 1
+23:41:36.757 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 31
+23:41:36.757 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60442 Previous[TimeStamp]: 2016-11-09 00:55:20.0 Previous[Value]: 0
+23:41:36.757 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:41:36.758 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 342000 [ms]
+23:41:36.759 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.759 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.759 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60446 Next[TimeStamp]: 2016-11-09 00:55:28.0 Next[Value]: 0
+23:41:36.759 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 32
+23:41:36.759 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60444 Previous[TimeStamp]: 2016-11-09 00:55:25.0 Previous[Value]: 1
+23:41:36.760 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.760 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 345000 [ms]
+23:41:36.760 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.760 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.760 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60448 Next[TimeStamp]: 2016-11-09 00:56:08.0 Next[Value]: 1
+23:41:36.760 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 33
+23:41:36.760 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60446 Previous[TimeStamp]: 2016-11-09 00:55:28.0 Previous[Value]: 0
+23:41:36.761 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 40000 [ms]
+23:41:36.761 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 345000 [ms]
+23:41:36.761 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.761 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.762 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60450 Next[TimeStamp]: 2016-11-09 00:56:23.0 Next[Value]: 0
+23:41:36.763 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 34
+23:41:36.764 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60448 Previous[TimeStamp]: 2016-11-09 00:56:08.0 Previous[Value]: 1
+23:41:36.764 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 15000 [ms]
+23:41:36.765 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 360000 [ms]
+23:41:36.765 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.765 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.765 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60453 Next[TimeStamp]: 2016-11-09 00:57:40.0 Next[Value]: 1
+23:41:36.765 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 35
+23:41:36.766 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60450 Previous[TimeStamp]: 2016-11-09 00:56:23.0 Previous[Value]: 0
+23:41:36.766 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 77000 [ms]
+23:41:36.766 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 360000 [ms]
+23:41:36.766 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.766 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.766 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60454 Next[TimeStamp]: 2016-11-09 00:57:48.0 Next[Value]: 0
+23:41:36.766 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 36
+23:41:36.767 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60453 Previous[TimeStamp]: 2016-11-09 00:57:40.0 Previous[Value]: 1
+23:41:36.767 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 8000 [ms]
+23:41:36.767 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 368000 [ms]
+23:41:36.767 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.768 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.768 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60456 Next[TimeStamp]: 2016-11-09 00:57:58.0 Next[Value]: 1
+23:41:36.768 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 37
+23:41:36.768 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60454 Previous[TimeStamp]: 2016-11-09 00:57:48.0 Previous[Value]: 0
+23:41:36.768 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 10000 [ms]
+23:41:36.768 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 368000 [ms]
+23:41:36.769 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.769 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.769 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60458 Next[TimeStamp]: 2016-11-09 00:58:01.0 Next[Value]: 0
+23:41:36.769 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 38
+23:41:36.769 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60456 Previous[TimeStamp]: 2016-11-09 00:57:58.0 Previous[Value]: 1
+23:41:36.769 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.770 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 371000 [ms]
+23:41:36.770 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.770 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.770 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60461 Next[TimeStamp]: 2016-11-09 01:05:47.0 Next[Value]: 1
+23:41:36.770 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 39
+23:41:36.770 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60458 Previous[TimeStamp]: 2016-11-09 00:58:01.0 Previous[Value]: 0
+23:41:36.771 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 466000 [ms]
+23:41:36.771 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 371000 [ms]
+23:41:36.771 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.771 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.772 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60463 Next[TimeStamp]: 2016-11-09 01:05:49.0 Next[Value]: 0
+23:41:36.772 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 40
+23:41:36.772 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60461 Previous[TimeStamp]: 2016-11-09 01:05:47.0 Previous[Value]: 1
+23:41:36.772 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:41:36.773 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 373000 [ms]
+23:41:36.773 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.773 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.773 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60465 Next[TimeStamp]: 2016-11-09 01:07:34.0 Next[Value]: 1
+23:41:36.773 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 41
+23:41:36.773 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60463 Previous[TimeStamp]: 2016-11-09 01:05:49.0 Previous[Value]: 0
+23:41:36.774 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 105000 [ms]
+23:41:36.774 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 373000 [ms]
+23:41:36.774 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.774 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.774 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60467 Next[TimeStamp]: 2016-11-09 01:07:37.0 Next[Value]: 0
+23:41:36.774 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 42
+23:41:36.775 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60465 Previous[TimeStamp]: 2016-11-09 01:07:34.0 Previous[Value]: 1
+23:41:36.775 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.775 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 376000 [ms]
+23:41:36.775 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.776 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.776 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60469 Next[TimeStamp]: 2016-11-09 01:19:27.0 Next[Value]: 1
+23:41:36.776 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 43
+23:41:36.776 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60467 Previous[TimeStamp]: 2016-11-09 01:07:37.0 Previous[Value]: 0
+23:41:36.777 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 710000 [ms]
+23:41:36.777 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 376000 [ms]
+23:41:36.777 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.778 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.778 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60471 Next[TimeStamp]: 2016-11-09 01:19:30.0 Next[Value]: 0
+23:41:36.780 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 44
+23:41:36.780 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60469 Previous[TimeStamp]: 2016-11-09 01:19:27.0 Previous[Value]: 1
+23:41:36.781 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.782 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 379000 [ms]
+23:41:36.782 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.782 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.782 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60474 Next[TimeStamp]: 2016-11-09 01:25:48.0 Next[Value]: 1
+23:41:36.782 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 45
+23:41:36.783 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60471 Previous[TimeStamp]: 2016-11-09 01:19:30.0 Previous[Value]: 0
+23:41:36.783 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 378000 [ms]
+23:41:36.783 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 379000 [ms]
+23:41:36.783 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.783 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.783 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60476 Next[TimeStamp]: 2016-11-09 01:25:51.0 Next[Value]: 0
+23:41:36.783 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 46
+23:41:36.784 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60474 Previous[TimeStamp]: 2016-11-09 01:25:48.0 Previous[Value]: 1
+23:41:36.784 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.784 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 382000 [ms]
+23:41:36.784 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.784 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.784 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60478 Next[TimeStamp]: 2016-11-09 01:31:33.0 Next[Value]: 1
+23:41:36.785 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 47
+23:41:36.785 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60476 Previous[TimeStamp]: 2016-11-09 01:25:51.0 Previous[Value]: 0
+23:41:36.785 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 342000 [ms]
+23:41:36.785 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 382000 [ms]
+23:41:36.785 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.785 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.785 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60480 Next[TimeStamp]: 2016-11-09 01:31:36.0 Next[Value]: 0
+23:41:36.786 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 48
+23:41:36.786 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60478 Previous[TimeStamp]: 2016-11-09 01:31:33.0 Previous[Value]: 1
+23:41:36.786 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.786 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 385000 [ms]
+23:41:36.786 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.786 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.786 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60482 Next[TimeStamp]: 2016-11-09 01:36:46.0 Next[Value]: 1
+23:41:36.787 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 49
+23:41:36.787 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60480 Previous[TimeStamp]: 2016-11-09 01:31:36.0 Previous[Value]: 0
+23:41:36.787 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 310000 [ms]
+23:41:36.787 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 385000 [ms]
+23:41:36.787 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.788 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.788 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60484 Next[TimeStamp]: 2016-11-09 01:36:49.0 Next[Value]: 0
+23:41:36.788 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 50
+23:41:36.789 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60482 Previous[TimeStamp]: 2016-11-09 01:36:46.0 Previous[Value]: 1
+23:41:36.789 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.790 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 388000 [ms]
+23:41:36.790 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.790 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.790 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60486 Next[TimeStamp]: 2016-11-09 01:40:26.0 Next[Value]: 1
+23:41:36.791 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 51
+23:41:36.791 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60484 Previous[TimeStamp]: 2016-11-09 01:36:49.0 Previous[Value]: 0
+23:41:36.791 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 217000 [ms]
+23:41:36.791 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 388000 [ms]
+23:41:36.791 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.792 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.792 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60488 Next[TimeStamp]: 2016-11-09 01:40:29.0 Next[Value]: 0
+23:41:36.792 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 52
+23:41:36.792 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60486 Previous[TimeStamp]: 2016-11-09 01:40:26.0 Previous[Value]: 1
+23:41:36.792 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.793 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 391000 [ms]
+23:41:36.793 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.793 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.794 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60490 Next[TimeStamp]: 2016-11-09 01:41:00.0 Next[Value]: 1
+23:41:36.794 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 53
+23:41:36.794 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60488 Previous[TimeStamp]: 2016-11-09 01:40:29.0 Previous[Value]: 0
+23:41:36.794 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 31000 [ms]
+23:41:36.794 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 391000 [ms]
+23:41:36.794 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.795 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.795 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60492 Next[TimeStamp]: 2016-11-09 01:41:03.0 Next[Value]: 0
+23:41:36.795 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 54
+23:41:36.795 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60490 Previous[TimeStamp]: 2016-11-09 01:41:00.0 Previous[Value]: 1
+23:41:36.795 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.795 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 394000 [ms]
+23:41:36.795 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.796 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.796 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60494 Next[TimeStamp]: 2016-11-09 01:45:42.0 Next[Value]: 1
+23:41:36.796 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 55
+23:41:36.796 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60492 Previous[TimeStamp]: 2016-11-09 01:41:03.0 Previous[Value]: 0
+23:41:36.796 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 279000 [ms]
+23:41:36.796 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 394000 [ms]
+23:41:36.797 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.797 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.797 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60496 Next[TimeStamp]: 2016-11-09 01:45:45.0 Next[Value]: 0
+23:41:36.797 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 56
+23:41:36.797 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60494 Previous[TimeStamp]: 2016-11-09 01:45:42.0 Previous[Value]: 1
+23:41:36.798 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.798 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 397000 [ms]
+23:41:36.798 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.798 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.798 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60498 Next[TimeStamp]: 2016-11-09 01:56:39.0 Next[Value]: 1
+23:41:36.798 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 57
+23:41:36.798 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60496 Previous[TimeStamp]: 2016-11-09 01:45:45.0 Previous[Value]: 0
+23:41:36.799 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 654000 [ms]
+23:41:36.799 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 397000 [ms]
+23:41:36.799 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.799 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.799 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60500 Next[TimeStamp]: 2016-11-09 01:56:42.0 Next[Value]: 0
+23:41:36.799 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 58
+23:41:36.799 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60498 Previous[TimeStamp]: 2016-11-09 01:56:39.0 Previous[Value]: 1
+23:41:36.800 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.800 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 400000 [ms]
+23:41:36.800 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.800 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.800 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60502 Next[TimeStamp]: 2016-11-09 02:00:01.0 Next[Value]: 1
+23:41:36.800 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 59
+23:41:36.800 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60500 Previous[TimeStamp]: 2016-11-09 01:56:42.0 Previous[Value]: 0
+23:41:36.801 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 199000 [ms]
+23:41:36.801 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 400000 [ms]
+23:41:36.801 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.801 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.801 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60504 Next[TimeStamp]: 2016-11-09 02:00:03.0 Next[Value]: 0
+23:41:36.801 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 60
+23:41:36.801 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60502 Previous[TimeStamp]: 2016-11-09 02:00:01.0 Previous[Value]: 1
+23:41:36.802 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:41:36.802 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 402000 [ms]
+23:41:36.802 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.802 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.803 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60506 Next[TimeStamp]: 2016-11-09 02:04:21.0 Next[Value]: 1
+23:41:36.803 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 61
+23:41:36.804 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60504 Previous[TimeStamp]: 2016-11-09 02:00:03.0 Previous[Value]: 0
+23:41:36.805 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 258000 [ms]
+23:41:36.805 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 402000 [ms]
+23:41:36.805 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.805 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.805 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60508 Next[TimeStamp]: 2016-11-09 02:04:24.0 Next[Value]: 0
+23:41:36.806 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 62
+23:41:36.806 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60506 Previous[TimeStamp]: 2016-11-09 02:04:21.0 Previous[Value]: 1
+23:41:36.806 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.806 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 405000 [ms]
+23:41:36.806 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.806 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.806 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60517 Next[TimeStamp]: 2016-11-09 22:30:38.0 Next[Value]: 1
+23:41:36.807 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 63
+23:41:36.807 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60508 Previous[TimeStamp]: 2016-11-09 02:04:24.0 Previous[Value]: 0
+23:41:36.807 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 73574000 [ms]
+23:41:36.807 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 405000 [ms]
+23:41:36.807 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.807 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.808 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60520 Next[TimeStamp]: 2016-11-09 22:30:55.0 Next[Value]: 1
+23:41:36.808 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 64
+23:41:36.808 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60517 Previous[TimeStamp]: 2016-11-09 22:30:38.0 Previous[Value]: 1
+23:41:36.808 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 17000 [ms]
+23:41:36.808 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 422000 [ms]
+23:41:36.808 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.808 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.809 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60521 Next[TimeStamp]: 2016-11-09 22:30:59.0 Next[Value]: 0
+23:41:36.809 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 65
+23:41:36.809 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60520 Previous[TimeStamp]: 2016-11-09 22:30:55.0 Previous[Value]: 1
+23:41:36.809 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 4000 [ms]
+23:41:36.809 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 426000 [ms]
+23:41:36.809 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.809 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.810 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60589 Next[TimeStamp]: 2016-11-09 22:45:52.0 Next[Value]: 1
+23:41:36.810 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 66
+23:41:36.810 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60521 Previous[TimeStamp]: 2016-11-09 22:30:59.0 Previous[Value]: 0
+23:41:36.810 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 893000 [ms]
+23:41:36.810 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 426000 [ms]
+23:41:36.810 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.810 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.811 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60591 Next[TimeStamp]: 2016-11-09 22:45:55.0 Next[Value]: 0
+23:41:36.811 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 67
+23:41:36.811 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60589 Previous[TimeStamp]: 2016-11-09 22:45:52.0 Previous[Value]: 1
+23:41:36.811 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:41:36.811 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 429000 [ms]
+23:41:36.811 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.811 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.812 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60593 Next[TimeStamp]: 2016-11-09 22:46:32.0 Next[Value]: 1
+23:41:36.812 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 68
+23:41:36.812 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60591 Previous[TimeStamp]: 2016-11-09 22:45:55.0 Previous[Value]: 0
+23:41:36.812 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 37000 [ms]
+23:41:36.812 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 429000 [ms]
+23:41:36.812 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.812 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:41:36.813 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60595 Next[TimeStamp]: 2016-11-09 22:46:36.0 Next[Value]: 0
+23:41:36.813 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 69
+23:41:36.813 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60593 Previous[TimeStamp]: 2016-11-09 22:46:32.0 Previous[Value]: 1
+23:41:36.813 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 4000 [ms]
+23:41:36.813 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 433000 [ms]
+23:41:36.813 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:41:36.814 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 96 - totalStatistics: 515000
+23:41:36.882 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 90 - Calculate Thermostat
+23:41:36.883 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 92 - Calculate Lightt
+23:41:36.883 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 96 - totalStatistics: 0
+23:53:45.427 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 90 - Calculate Thermostat
+23:53:45.428 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.429 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60375 Next[TimeStamp]: 2016-11-09 00:53:46.0 Next[Value]: 1
+23:53:45.430 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 0
+23:53:45.430 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60319 Previous[TimeStamp]: 2016-11-09 00:49:21.0 Previous[Value]: 0
+23:53:45.430 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 265000 [ms]
+23:53:45.431 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 0 [ms]
+23:53:45.431 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.431 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.431 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60377 Next[TimeStamp]: 2016-11-09 00:53:47.0 Next[Value]: 1
+23:53:45.432 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 1
+23:53:45.432 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60375 Previous[TimeStamp]: 2016-11-09 00:53:46.0 Previous[Value]: 1
+23:53:45.432 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.432 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 1000 [ms]
+23:53:45.432 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.433 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.433 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60379 Next[TimeStamp]: 2016-11-09 00:53:48.0 Next[Value]: 1
+23:53:45.433 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 2
+23:53:45.433 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60377 Previous[TimeStamp]: 2016-11-09 00:53:47.0 Previous[Value]: 1
+23:53:45.434 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.434 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 2000 [ms]
+23:53:45.434 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.434 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.434 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60381 Next[TimeStamp]: 2016-11-09 00:53:49.0 Next[Value]: 1
+23:53:45.435 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 3
+23:53:45.435 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60379 Previous[TimeStamp]: 2016-11-09 00:53:48.0 Previous[Value]: 1
+23:53:45.435 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.435 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 3000 [ms]
+23:53:45.436 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.436 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.436 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60384 Next[TimeStamp]: 2016-11-09 00:53:51.0 Next[Value]: 1
+23:53:45.436 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 4
+23:53:45.436 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60381 Previous[TimeStamp]: 2016-11-09 00:53:49.0 Previous[Value]: 1
+23:53:45.437 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:53:45.437 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 5000 [ms]
+23:53:45.437 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.438 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.438 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60386 Next[TimeStamp]: 2016-11-09 00:53:52.0 Next[Value]: 1
+23:53:45.438 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 5
+23:53:45.438 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60384 Previous[TimeStamp]: 2016-11-09 00:53:51.0 Previous[Value]: 1
+23:53:45.439 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.439 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 6000 [ms]
+23:53:45.439 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.439 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.440 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60388 Next[TimeStamp]: 2016-11-09 00:53:53.0 Next[Value]: 1
+23:53:45.440 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 6
+23:53:45.440 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60386 Previous[TimeStamp]: 2016-11-09 00:53:52.0 Previous[Value]: 1
+23:53:45.440 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.441 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 7000 [ms]
+23:53:45.441 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.442 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.442 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60390 Next[TimeStamp]: 2016-11-09 00:53:55.0 Next[Value]: 1
+23:53:45.442 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 7
+23:53:45.442 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60388 Previous[TimeStamp]: 2016-11-09 00:53:53.0 Previous[Value]: 1
+23:53:45.442 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:53:45.443 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 9000 [ms]
+23:53:45.443 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.443 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.444 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60392 Next[TimeStamp]: 2016-11-09 00:53:57.0 Next[Value]: 1
+23:53:45.444 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 8
+23:53:45.444 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60390 Previous[TimeStamp]: 2016-11-09 00:53:55.0 Previous[Value]: 1
+23:53:45.444 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:53:45.445 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 11000 [ms]
+23:53:45.445 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.445 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.445 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60394 Next[TimeStamp]: 2016-11-09 00:53:58.0 Next[Value]: 1
+23:53:45.445 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 9
+23:53:45.446 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60392 Previous[TimeStamp]: 2016-11-09 00:53:57.0 Previous[Value]: 1
+23:53:45.446 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.446 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 12000 [ms]
+23:53:45.446 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.446 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.446 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60396 Next[TimeStamp]: 2016-11-09 00:53:59.0 Next[Value]: 1
+23:53:45.446 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 10
+23:53:45.447 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60394 Previous[TimeStamp]: 2016-11-09 00:53:58.0 Previous[Value]: 1
+23:53:45.447 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.447 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 13000 [ms]
+23:53:45.447 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.447 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.447 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60399 Next[TimeStamp]: 2016-11-09 00:54:00.0 Next[Value]: 1
+23:53:45.448 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 11
+23:53:45.448 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60396 Previous[TimeStamp]: 2016-11-09 00:53:59.0 Previous[Value]: 1
+23:53:45.448 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.448 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 14000 [ms]
+23:53:45.448 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.448 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.449 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60401 Next[TimeStamp]: 2016-11-09 00:54:01.0 Next[Value]: 1
+23:53:45.449 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 12
+23:53:45.449 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60399 Previous[TimeStamp]: 2016-11-09 00:54:00.0 Previous[Value]: 1
+23:53:45.449 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.449 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 15000 [ms]
+23:53:45.449 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.450 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.450 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60403 Next[TimeStamp]: 2016-11-09 00:54:03.0 Next[Value]: 1
+23:53:45.450 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 13
+23:53:45.450 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60401 Previous[TimeStamp]: 2016-11-09 00:54:01.0 Previous[Value]: 1
+23:53:45.450 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:53:45.450 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 17000 [ms]
+23:53:45.450 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.451 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.451 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60407 Next[TimeStamp]: 2016-11-09 00:54:04.0 Next[Value]: 1
+23:53:45.451 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 14
+23:53:45.451 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60403 Previous[TimeStamp]: 2016-11-09 00:54:03.0 Previous[Value]: 1
+23:53:45.451 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.451 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 18000 [ms]
+23:53:45.451 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.452 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.452 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60409 Next[TimeStamp]: 2016-11-09 00:54:09.0 Next[Value]: 1
+23:53:45.452 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 15
+23:53:45.452 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60407 Previous[TimeStamp]: 2016-11-09 00:54:04.0 Previous[Value]: 1
+23:53:45.452 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:53:45.452 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 23000 [ms]
+23:53:45.452 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.453 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.453 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60411 Next[TimeStamp]: 2016-11-09 00:54:12.0 Next[Value]: 1
+23:53:45.453 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 16
+23:53:45.453 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60409 Previous[TimeStamp]: 2016-11-09 00:54:09.0 Previous[Value]: 1
+23:53:45.453 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.453 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 26000 [ms]
+23:53:45.453 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.454 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.454 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60416 Next[TimeStamp]: 2016-11-09 00:54:18.0 Next[Value]: 1
+23:53:45.454 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 17
+23:53:45.454 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60411 Previous[TimeStamp]: 2016-11-09 00:54:12.0 Previous[Value]: 1
+23:53:45.454 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 6000 [ms]
+23:53:45.454 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 32000 [ms]
+23:53:45.454 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.455 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.455 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60418 Next[TimeStamp]: 2016-11-09 00:54:19.0 Next[Value]: 1
+23:53:45.455 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 18
+23:53:45.455 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60416 Previous[TimeStamp]: 2016-11-09 00:54:18.0 Previous[Value]: 1
+23:53:45.455 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.455 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 33000 [ms]
+23:53:45.456 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.456 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.456 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60420 Next[TimeStamp]: 2016-11-09 00:54:20.0 Next[Value]: 1
+23:53:45.457 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 19
+23:53:45.457 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60418 Previous[TimeStamp]: 2016-11-09 00:54:19.0 Previous[Value]: 1
+23:53:45.457 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.457 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 34000 [ms]
+23:53:45.457 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.457 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.457 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60422 Next[TimeStamp]: 2016-11-09 00:54:21.0 Next[Value]: 1
+23:53:45.458 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 20
+23:53:45.458 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60420 Previous[TimeStamp]: 2016-11-09 00:54:20.0 Previous[Value]: 1
+23:53:45.458 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.458 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 35000 [ms]
+23:53:45.458 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.458 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.459 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60424 Next[TimeStamp]: 2016-11-09 00:54:22.0 Next[Value]: 1
+23:53:45.459 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 21
+23:53:45.459 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60422 Previous[TimeStamp]: 2016-11-09 00:54:21.0 Previous[Value]: 1
+23:53:45.459 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.459 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 36000 [ms]
+23:53:45.459 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.460 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.460 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60426 Next[TimeStamp]: 2016-11-09 00:54:23.0 Next[Value]: 1
+23:53:45.460 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 22
+23:53:45.460 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60424 Previous[TimeStamp]: 2016-11-09 00:54:22.0 Previous[Value]: 1
+23:53:45.460 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 1000 [ms]
+23:53:45.460 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 37000 [ms]
+23:53:45.460 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.461 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.461 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60438 Next[TimeStamp]: 2016-11-09 00:54:58.0 Next[Value]: 0
+23:53:45.461 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 23
+23:53:45.461 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60426 Previous[TimeStamp]: 2016-11-09 00:54:23.0 Previous[Value]: 1
+23:53:45.461 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 35000 [ms]
+23:53:45.461 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 72000 [ms]
+23:53:45.462 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.462 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.462 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60518 Next[TimeStamp]: 2016-11-09 22:30:42.0 Next[Value]: 1
+23:53:45.462 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 24
+23:53:45.462 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60438 Previous[TimeStamp]: 2016-11-09 00:54:58.0 Previous[Value]: 0
+23:53:45.462 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 77744000 [ms]
+23:53:45.463 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 72000 [ms]
+23:53:45.463 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.463 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.463 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60519 Next[TimeStamp]: 2016-11-09 22:30:52.0 Next[Value]: 0
+23:53:45.463 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 25
+23:53:45.463 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60518 Previous[TimeStamp]: 2016-11-09 22:30:42.0 Previous[Value]: 1
+23:53:45.463 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 10000 [ms]
+23:53:45.464 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 82000 [ms]
+23:53:45.464 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.464 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 92 - Calculate Lightt
+23:53:45.464 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.464 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60311 Next[TimeStamp]: 2016-11-09 00:48:42.0 Next[Value]: 0
+23:53:45.465 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 0
+23:53:45.466 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60309 Previous[TimeStamp]: 2016-11-09 00:48:31.0 Previous[Value]: 1
+23:53:45.466 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 11000 [ms]
+23:53:45.467 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 11000 [ms]
+23:53:45.467 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.468 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.468 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60313 Next[TimeStamp]: 2016-11-09 00:48:46.0 Next[Value]: 1
+23:53:45.468 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 1
+23:53:45.468 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60311 Previous[TimeStamp]: 2016-11-09 00:48:42.0 Previous[Value]: 0
+23:53:45.468 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 4000 [ms]
+23:53:45.468 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 11000 [ms]
+23:53:45.468 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.469 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.469 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60315 Next[TimeStamp]: 2016-11-09 00:49:17.0 Next[Value]: 0
+23:53:45.469 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 2
+23:53:45.469 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60313 Previous[TimeStamp]: 2016-11-09 00:48:46.0 Previous[Value]: 1
+23:53:45.469 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 31000 [ms]
+23:53:45.469 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 42000 [ms]
+23:53:45.469 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.470 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.470 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60317 Next[TimeStamp]: 2016-11-09 00:49:20.0 Next[Value]: 1
+23:53:45.470 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 3
+23:53:45.470 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60315 Previous[TimeStamp]: 2016-11-09 00:49:17.0 Previous[Value]: 0
+23:53:45.470 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.470 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 42000 [ms]
+23:53:45.471 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.471 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.471 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60321 Next[TimeStamp]: 2016-11-09 00:49:28.0 Next[Value]: 0
+23:53:45.471 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 4
+23:53:45.471 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60317 Previous[TimeStamp]: 2016-11-09 00:49:20.0 Previous[Value]: 1
+23:53:45.472 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 8000 [ms]
+23:53:45.472 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 50000 [ms]
+23:53:45.472 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.472 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.473 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60323 Next[TimeStamp]: 2016-11-09 00:49:31.0 Next[Value]: 1
+23:53:45.473 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 5
+23:53:45.474 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60321 Previous[TimeStamp]: 2016-11-09 00:49:28.0 Previous[Value]: 0
+23:53:45.474 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.474 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 50000 [ms]
+23:53:45.474 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.474 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.474 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60325 Next[TimeStamp]: 2016-11-09 00:50:18.0 Next[Value]: 0
+23:53:45.475 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 6
+23:53:45.475 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60323 Previous[TimeStamp]: 2016-11-09 00:49:31.0 Previous[Value]: 1
+23:53:45.475 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 47000 [ms]
+23:53:45.475 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 97000 [ms]
+23:53:45.475 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.475 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.475 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60327 Next[TimeStamp]: 2016-11-09 00:50:20.0 Next[Value]: 1
+23:53:45.476 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 7
+23:53:45.476 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60325 Previous[TimeStamp]: 2016-11-09 00:50:18.0 Previous[Value]: 0
+23:53:45.476 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:53:45.476 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 97000 [ms]
+23:53:45.476 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.476 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.476 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60329 Next[TimeStamp]: 2016-11-09 00:50:25.0 Next[Value]: 0
+23:53:45.477 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 8
+23:53:45.477 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60327 Previous[TimeStamp]: 2016-11-09 00:50:20.0 Previous[Value]: 1
+23:53:45.477 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:53:45.477 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 102000 [ms]
+23:53:45.477 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.477 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.478 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60331 Next[TimeStamp]: 2016-11-09 00:50:28.0 Next[Value]: 1
+23:53:45.478 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 9
+23:53:45.478 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60329 Previous[TimeStamp]: 2016-11-09 00:50:25.0 Previous[Value]: 0
+23:53:45.478 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.478 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 102000 [ms]
+23:53:45.478 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.478 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.479 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60333 Next[TimeStamp]: 2016-11-09 00:50:30.0 Next[Value]: 0
+23:53:45.479 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 10
+23:53:45.479 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60331 Previous[TimeStamp]: 2016-11-09 00:50:28.0 Previous[Value]: 1
+23:53:45.479 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:53:45.479 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 104000 [ms]
+23:53:45.479 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.479 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.480 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60335 Next[TimeStamp]: 2016-11-09 00:50:35.0 Next[Value]: 1
+23:53:45.480 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 11
+23:53:45.480 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60333 Previous[TimeStamp]: 2016-11-09 00:50:30.0 Previous[Value]: 0
+23:53:45.480 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:53:45.480 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 104000 [ms]
+23:53:45.480 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.480 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.481 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60337 Next[TimeStamp]: 2016-11-09 00:51:36.0 Next[Value]: 0
+23:53:45.481 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 12
+23:53:45.481 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60335 Previous[TimeStamp]: 2016-11-09 00:50:35.0 Previous[Value]: 1
+23:53:45.481 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 61000 [ms]
+23:53:45.481 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 165000 [ms]
+23:53:45.481 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.481 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.482 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60339 Next[TimeStamp]: 2016-11-09 00:51:39.0 Next[Value]: 1
+23:53:45.482 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 13
+23:53:45.482 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60337 Previous[TimeStamp]: 2016-11-09 00:51:36.0 Previous[Value]: 0
+23:53:45.482 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.482 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 165000 [ms]
+23:53:45.482 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.482 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.483 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60341 Next[TimeStamp]: 2016-11-09 00:51:46.0 Next[Value]: 0
+23:53:45.483 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 14
+23:53:45.483 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60339 Previous[TimeStamp]: 2016-11-09 00:51:39.0 Previous[Value]: 1
+23:53:45.483 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 7000 [ms]
+23:53:45.483 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 172000 [ms]
+23:53:45.483 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.483 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.484 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60343 Next[TimeStamp]: 2016-11-09 00:51:49.0 Next[Value]: 1
+23:53:45.484 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 15
+23:53:45.484 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60341 Previous[TimeStamp]: 2016-11-09 00:51:46.0 Previous[Value]: 0
+23:53:45.484 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.484 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 172000 [ms]
+23:53:45.484 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.484 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.485 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60345 Next[TimeStamp]: 2016-11-09 00:52:15.0 Next[Value]: 0
+23:53:45.485 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 16
+23:53:45.485 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60343 Previous[TimeStamp]: 2016-11-09 00:51:49.0 Previous[Value]: 1
+23:53:45.485 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 26000 [ms]
+23:53:45.485 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 198000 [ms]
+23:53:45.485 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.486 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.487 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60347 Next[TimeStamp]: 2016-11-09 00:52:23.0 Next[Value]: 1
+23:53:45.487 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 17
+23:53:45.488 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60345 Previous[TimeStamp]: 2016-11-09 00:52:15.0 Previous[Value]: 0
+23:53:45.489 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 8000 [ms]
+23:53:45.490 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 198000 [ms]
+23:53:45.490 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.491 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.491 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60349 Next[TimeStamp]: 2016-11-09 00:52:35.0 Next[Value]: 0
+23:53:45.491 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 18
+23:53:45.491 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60347 Previous[TimeStamp]: 2016-11-09 00:52:23.0 Previous[Value]: 1
+23:53:45.492 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 12000 [ms]
+23:53:45.492 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 210000 [ms]
+23:53:45.492 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.492 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.493 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60351 Next[TimeStamp]: 2016-11-09 00:52:38.0 Next[Value]: 1
+23:53:45.493 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 19
+23:53:45.493 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60349 Previous[TimeStamp]: 2016-11-09 00:52:35.0 Previous[Value]: 0
+23:53:45.493 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.493 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 210000 [ms]
+23:53:45.493 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.493 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.494 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60353 Next[TimeStamp]: 2016-11-09 00:52:48.0 Next[Value]: 0
+23:53:45.494 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 20
+23:53:45.494 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60351 Previous[TimeStamp]: 2016-11-09 00:52:38.0 Previous[Value]: 1
+23:53:45.494 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 10000 [ms]
+23:53:45.494 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 220000 [ms]
+23:53:45.494 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.495 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.495 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60355 Next[TimeStamp]: 2016-11-09 00:52:51.0 Next[Value]: 1
+23:53:45.495 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 21
+23:53:45.495 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60353 Previous[TimeStamp]: 2016-11-09 00:52:48.0 Previous[Value]: 0
+23:53:45.495 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.495 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 220000 [ms]
+23:53:45.496 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.496 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.496 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60359 Next[TimeStamp]: 2016-11-09 00:53:12.0 Next[Value]: 0
+23:53:45.496 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 22
+23:53:45.496 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60355 Previous[TimeStamp]: 2016-11-09 00:52:51.0 Previous[Value]: 1
+23:53:45.496 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 21000 [ms]
+23:53:45.497 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 241000 [ms]
+23:53:45.497 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.497 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.497 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60363 Next[TimeStamp]: 2016-11-09 00:53:14.0 Next[Value]: 1
+23:53:45.497 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 23
+23:53:45.497 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60359 Previous[TimeStamp]: 2016-11-09 00:53:12.0 Previous[Value]: 0
+23:53:45.497 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:53:45.498 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 241000 [ms]
+23:53:45.498 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.498 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.498 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60406 Next[TimeStamp]: 2016-11-09 00:54:04.0 Next[Value]: 0
+23:53:45.498 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 24
+23:53:45.498 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60363 Previous[TimeStamp]: 2016-11-09 00:53:14.0 Previous[Value]: 1
+23:53:45.499 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 50000 [ms]
+23:53:45.499 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 291000 [ms]
+23:53:45.499 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.499 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.499 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60414 Next[TimeStamp]: 2016-11-09 00:54:15.0 Next[Value]: 1
+23:53:45.499 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 25
+23:53:45.500 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60406 Previous[TimeStamp]: 2016-11-09 00:54:04.0 Previous[Value]: 0
+23:53:45.500 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 11000 [ms]
+23:53:45.500 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 291000 [ms]
+23:53:45.500 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.500 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.500 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60429 Next[TimeStamp]: 2016-11-09 00:54:34.0 Next[Value]: 0
+23:53:45.501 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 26
+23:53:45.501 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60414 Previous[TimeStamp]: 2016-11-09 00:54:15.0 Previous[Value]: 1
+23:53:45.501 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 19000 [ms]
+23:53:45.501 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 310000 [ms]
+23:53:45.501 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.502 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.502 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60431 Next[TimeStamp]: 2016-11-09 00:54:39.0 Next[Value]: 1
+23:53:45.502 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 27
+23:53:45.503 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60429 Previous[TimeStamp]: 2016-11-09 00:54:34.0 Previous[Value]: 0
+23:53:45.504 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:53:45.505 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 310000 [ms]
+23:53:45.505 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.505 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.506 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60434 Next[TimeStamp]: 2016-11-09 00:54:43.0 Next[Value]: 0
+23:53:45.506 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 28
+23:53:45.507 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60431 Previous[TimeStamp]: 2016-11-09 00:54:39.0 Previous[Value]: 1
+23:53:45.507 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 4000 [ms]
+23:53:45.507 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 314000 [ms]
+23:53:45.507 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.508 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.508 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60436 Next[TimeStamp]: 2016-11-09 00:54:52.0 Next[Value]: 1
+23:53:45.508 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 29
+23:53:45.508 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60434 Previous[TimeStamp]: 2016-11-09 00:54:43.0 Previous[Value]: 0
+23:53:45.509 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 9000 [ms]
+23:53:45.509 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 314000 [ms]
+23:53:45.509 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.509 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.510 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60442 Next[TimeStamp]: 2016-11-09 00:55:20.0 Next[Value]: 0
+23:53:45.510 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 30
+23:53:45.510 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60436 Previous[TimeStamp]: 2016-11-09 00:54:52.0 Previous[Value]: 1
+23:53:45.510 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 28000 [ms]
+23:53:45.510 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 342000 [ms]
+23:53:45.511 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.511 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.511 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60444 Next[TimeStamp]: 2016-11-09 00:55:25.0 Next[Value]: 1
+23:53:45.511 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 31
+23:53:45.511 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60442 Previous[TimeStamp]: 2016-11-09 00:55:20.0 Previous[Value]: 0
+23:53:45.511 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 5000 [ms]
+23:53:45.511 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 342000 [ms]
+23:53:45.512 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.512 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.512 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60446 Next[TimeStamp]: 2016-11-09 00:55:28.0 Next[Value]: 0
+23:53:45.512 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 32
+23:53:45.512 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60444 Previous[TimeStamp]: 2016-11-09 00:55:25.0 Previous[Value]: 1
+23:53:45.512 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.512 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 345000 [ms]
+23:53:45.513 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.513 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.513 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60448 Next[TimeStamp]: 2016-11-09 00:56:08.0 Next[Value]: 1
+23:53:45.513 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 33
+23:53:45.513 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60446 Previous[TimeStamp]: 2016-11-09 00:55:28.0 Previous[Value]: 0
+23:53:45.513 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 40000 [ms]
+23:53:45.513 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 345000 [ms]
+23:53:45.514 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.514 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.514 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60450 Next[TimeStamp]: 2016-11-09 00:56:23.0 Next[Value]: 0
+23:53:45.514 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 34
+23:53:45.514 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60448 Previous[TimeStamp]: 2016-11-09 00:56:08.0 Previous[Value]: 1
+23:53:45.514 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 15000 [ms]
+23:53:45.515 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 360000 [ms]
+23:53:45.515 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.515 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.515 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60453 Next[TimeStamp]: 2016-11-09 00:57:40.0 Next[Value]: 1
+23:53:45.515 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 35
+23:53:45.515 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60450 Previous[TimeStamp]: 2016-11-09 00:56:23.0 Previous[Value]: 0
+23:53:45.516 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 77000 [ms]
+23:53:45.516 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 360000 [ms]
+23:53:45.516 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.516 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.516 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60454 Next[TimeStamp]: 2016-11-09 00:57:48.0 Next[Value]: 0
+23:53:45.516 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 36
+23:53:45.517 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60453 Previous[TimeStamp]: 2016-11-09 00:57:40.0 Previous[Value]: 1
+23:53:45.517 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 8000 [ms]
+23:53:45.517 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 368000 [ms]
+23:53:45.517 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.517 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.517 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60456 Next[TimeStamp]: 2016-11-09 00:57:58.0 Next[Value]: 1
+23:53:45.517 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 37
+23:53:45.518 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60454 Previous[TimeStamp]: 2016-11-09 00:57:48.0 Previous[Value]: 0
+23:53:45.518 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 10000 [ms]
+23:53:45.518 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 368000 [ms]
+23:53:45.518 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.518 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.518 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60458 Next[TimeStamp]: 2016-11-09 00:58:01.0 Next[Value]: 0
+23:53:45.518 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 38
+23:53:45.519 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60456 Previous[TimeStamp]: 2016-11-09 00:57:58.0 Previous[Value]: 1
+23:53:45.519 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.519 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 371000 [ms]
+23:53:45.520 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.521 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.521 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60461 Next[TimeStamp]: 2016-11-09 01:05:47.0 Next[Value]: 1
+23:53:45.522 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 39
+23:53:45.522 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60458 Previous[TimeStamp]: 2016-11-09 00:58:01.0 Previous[Value]: 0
+23:53:45.522 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 466000 [ms]
+23:53:45.522 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 371000 [ms]
+23:53:45.522 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.522 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.523 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60463 Next[TimeStamp]: 2016-11-09 01:05:49.0 Next[Value]: 0
+23:53:45.523 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 40
+23:53:45.523 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60461 Previous[TimeStamp]: 2016-11-09 01:05:47.0 Previous[Value]: 1
+23:53:45.523 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:53:45.523 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 373000 [ms]
+23:53:45.523 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.523 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.524 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60465 Next[TimeStamp]: 2016-11-09 01:07:34.0 Next[Value]: 1
+23:53:45.524 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 41
+23:53:45.524 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60463 Previous[TimeStamp]: 2016-11-09 01:05:49.0 Previous[Value]: 0
+23:53:45.524 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 105000 [ms]
+23:53:45.524 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 373000 [ms]
+23:53:45.524 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.524 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.525 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60467 Next[TimeStamp]: 2016-11-09 01:07:37.0 Next[Value]: 0
+23:53:45.525 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 42
+23:53:45.525 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60465 Previous[TimeStamp]: 2016-11-09 01:07:34.0 Previous[Value]: 1
+23:53:45.525 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.525 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 376000 [ms]
+23:53:45.525 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.525 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.526 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60469 Next[TimeStamp]: 2016-11-09 01:19:27.0 Next[Value]: 1
+23:53:45.526 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 43
+23:53:45.526 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60467 Previous[TimeStamp]: 2016-11-09 01:07:37.0 Previous[Value]: 0
+23:53:45.526 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 710000 [ms]
+23:53:45.526 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 376000 [ms]
+23:53:45.526 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.526 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.527 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60471 Next[TimeStamp]: 2016-11-09 01:19:30.0 Next[Value]: 0
+23:53:45.527 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 44
+23:53:45.527 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60469 Previous[TimeStamp]: 2016-11-09 01:19:27.0 Previous[Value]: 1
+23:53:45.527 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.527 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 379000 [ms]
+23:53:45.527 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.527 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.528 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60474 Next[TimeStamp]: 2016-11-09 01:25:48.0 Next[Value]: 1
+23:53:45.528 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 45
+23:53:45.528 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60471 Previous[TimeStamp]: 2016-11-09 01:19:30.0 Previous[Value]: 0
+23:53:45.528 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 378000 [ms]
+23:53:45.528 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 379000 [ms]
+23:53:45.528 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.528 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.529 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60476 Next[TimeStamp]: 2016-11-09 01:25:51.0 Next[Value]: 0
+23:53:45.529 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 46
+23:53:45.529 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60474 Previous[TimeStamp]: 2016-11-09 01:25:48.0 Previous[Value]: 1
+23:53:45.529 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.529 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 382000 [ms]
+23:53:45.529 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.529 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.530 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60478 Next[TimeStamp]: 2016-11-09 01:31:33.0 Next[Value]: 1
+23:53:45.530 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 47
+23:53:45.530 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60476 Previous[TimeStamp]: 2016-11-09 01:25:51.0 Previous[Value]: 0
+23:53:45.530 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 342000 [ms]
+23:53:45.530 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 382000 [ms]
+23:53:45.530 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.530 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.531 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60480 Next[TimeStamp]: 2016-11-09 01:31:36.0 Next[Value]: 0
+23:53:45.531 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 48
+23:53:45.531 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60478 Previous[TimeStamp]: 2016-11-09 01:31:33.0 Previous[Value]: 1
+23:53:45.531 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.531 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 385000 [ms]
+23:53:45.531 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.531 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.532 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60482 Next[TimeStamp]: 2016-11-09 01:36:46.0 Next[Value]: 1
+23:53:45.532 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 49
+23:53:45.532 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60480 Previous[TimeStamp]: 2016-11-09 01:31:36.0 Previous[Value]: 0
+23:53:45.532 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 310000 [ms]
+23:53:45.532 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 385000 [ms]
+23:53:45.532 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.532 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.533 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60484 Next[TimeStamp]: 2016-11-09 01:36:49.0 Next[Value]: 0
+23:53:45.533 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 50
+23:53:45.533 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60482 Previous[TimeStamp]: 2016-11-09 01:36:46.0 Previous[Value]: 1
+23:53:45.533 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.533 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 388000 [ms]
+23:53:45.533 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.533 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.534 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60486 Next[TimeStamp]: 2016-11-09 01:40:26.0 Next[Value]: 1
+23:53:45.534 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 51
+23:53:45.534 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60484 Previous[TimeStamp]: 2016-11-09 01:36:49.0 Previous[Value]: 0
+23:53:45.534 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 217000 [ms]
+23:53:45.534 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 388000 [ms]
+23:53:45.534 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.535 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.535 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60488 Next[TimeStamp]: 2016-11-09 01:40:29.0 Next[Value]: 0
+23:53:45.535 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 52
+23:53:45.535 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60486 Previous[TimeStamp]: 2016-11-09 01:40:26.0 Previous[Value]: 1
+23:53:45.535 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.535 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 391000 [ms]
+23:53:45.536 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.537 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.538 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60490 Next[TimeStamp]: 2016-11-09 01:41:00.0 Next[Value]: 1
+23:53:45.538 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 53
+23:53:45.539 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60488 Previous[TimeStamp]: 2016-11-09 01:40:29.0 Previous[Value]: 0
+23:53:45.540 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 31000 [ms]
+23:53:45.540 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 391000 [ms]
+23:53:45.540 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.540 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.541 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60492 Next[TimeStamp]: 2016-11-09 01:41:03.0 Next[Value]: 0
+23:53:45.541 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 54
+23:53:45.542 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60490 Previous[TimeStamp]: 2016-11-09 01:41:00.0 Previous[Value]: 1
+23:53:45.542 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.542 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 394000 [ms]
+23:53:45.542 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.542 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.542 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60494 Next[TimeStamp]: 2016-11-09 01:45:42.0 Next[Value]: 1
+23:53:45.542 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 55
+23:53:45.543 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60492 Previous[TimeStamp]: 2016-11-09 01:41:03.0 Previous[Value]: 0
+23:53:45.543 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 279000 [ms]
+23:53:45.543 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 394000 [ms]
+23:53:45.543 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.543 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.543 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60496 Next[TimeStamp]: 2016-11-09 01:45:45.0 Next[Value]: 0
+23:53:45.543 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 56
+23:53:45.544 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60494 Previous[TimeStamp]: 2016-11-09 01:45:42.0 Previous[Value]: 1
+23:53:45.544 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.544 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 397000 [ms]
+23:53:45.544 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.544 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.544 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60498 Next[TimeStamp]: 2016-11-09 01:56:39.0 Next[Value]: 1
+23:53:45.544 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 57
+23:53:45.545 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60496 Previous[TimeStamp]: 2016-11-09 01:45:45.0 Previous[Value]: 0
+23:53:45.545 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 654000 [ms]
+23:53:45.545 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 397000 [ms]
+23:53:45.545 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.545 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.545 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60500 Next[TimeStamp]: 2016-11-09 01:56:42.0 Next[Value]: 0
+23:53:45.545 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 58
+23:53:45.546 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60498 Previous[TimeStamp]: 2016-11-09 01:56:39.0 Previous[Value]: 1
+23:53:45.546 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.546 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 400000 [ms]
+23:53:45.546 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.546 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.546 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60502 Next[TimeStamp]: 2016-11-09 02:00:01.0 Next[Value]: 1
+23:53:45.546 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 59
+23:53:45.547 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60500 Previous[TimeStamp]: 2016-11-09 01:56:42.0 Previous[Value]: 0
+23:53:45.547 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 199000 [ms]
+23:53:45.547 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 400000 [ms]
+23:53:45.547 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.547 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.547 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60504 Next[TimeStamp]: 2016-11-09 02:00:03.0 Next[Value]: 0
+23:53:45.547 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 60
+23:53:45.548 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60502 Previous[TimeStamp]: 2016-11-09 02:00:01.0 Previous[Value]: 1
+23:53:45.548 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 2000 [ms]
+23:53:45.548 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 402000 [ms]
+23:53:45.548 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.548 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.548 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60506 Next[TimeStamp]: 2016-11-09 02:04:21.0 Next[Value]: 1
+23:53:45.548 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 61
+23:53:45.549 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60504 Previous[TimeStamp]: 2016-11-09 02:00:03.0 Previous[Value]: 0
+23:53:45.549 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 258000 [ms]
+23:53:45.549 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 402000 [ms]
+23:53:45.549 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.549 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.549 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60508 Next[TimeStamp]: 2016-11-09 02:04:24.0 Next[Value]: 0
+23:53:45.549 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 62
+23:53:45.550 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60506 Previous[TimeStamp]: 2016-11-09 02:04:21.0 Previous[Value]: 1
+23:53:45.550 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.550 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 405000 [ms]
+23:53:45.550 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.550 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.550 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60517 Next[TimeStamp]: 2016-11-09 22:30:38.0 Next[Value]: 1
+23:53:45.550 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 63
+23:53:45.551 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60508 Previous[TimeStamp]: 2016-11-09 02:04:24.0 Previous[Value]: 0
+23:53:45.551 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 73574000 [ms]
+23:53:45.551 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 405000 [ms]
+23:53:45.551 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.551 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.551 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60520 Next[TimeStamp]: 2016-11-09 22:30:55.0 Next[Value]: 1
+23:53:45.552 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 64
+23:53:45.552 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60517 Previous[TimeStamp]: 2016-11-09 22:30:38.0 Previous[Value]: 1
+23:53:45.552 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 17000 [ms]
+23:53:45.552 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 422000 [ms]
+23:53:45.552 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.553 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.553 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60521 Next[TimeStamp]: 2016-11-09 22:30:59.0 Next[Value]: 0
+23:53:45.553 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 65
+23:53:45.553 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60520 Previous[TimeStamp]: 2016-11-09 22:30:55.0 Previous[Value]: 1
+23:53:45.553 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 4000 [ms]
+23:53:45.553 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 426000 [ms]
+23:53:45.553 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.554 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.554 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60589 Next[TimeStamp]: 2016-11-09 22:45:52.0 Next[Value]: 1
+23:53:45.554 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 66
+23:53:45.554 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60521 Previous[TimeStamp]: 2016-11-09 22:30:59.0 Previous[Value]: 0
+23:53:45.554 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 893000 [ms]
+23:53:45.554 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 426000 [ms]
+23:53:45.555 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.555 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.555 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60591 Next[TimeStamp]: 2016-11-09 22:45:55.0 Next[Value]: 0
+23:53:45.555 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 67
+23:53:45.555 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60589 Previous[TimeStamp]: 2016-11-09 22:45:52.0 Previous[Value]: 1
+23:53:45.555 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 3000 [ms]
+23:53:45.556 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 429000 [ms]
+23:53:45.556 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.556 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.556 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60593 Next[TimeStamp]: 2016-11-09 22:46:32.0 Next[Value]: 1
+23:53:45.556 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 68
+23:53:45.556 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60591 Previous[TimeStamp]: 2016-11-09 22:45:55.0 Previous[Value]: 0
+23:53:45.557 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 37000 [ms]
+23:53:45.557 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 429000 [ms]
+23:53:45.558 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.559 INFO  [iot.api.utility.ExecuteHelper]:calculateData 118 - ----------------------------------------------------------------
+23:53:45.559 INFO  [iot.api.utility.ExecuteHelper]:calculateData 119 - Next[Id]: 60595 Next[TimeStamp]: 2016-11-09 22:46:36.0 Next[Value]: 0
+23:53:45.560 INFO  [iot.api.utility.ExecuteHelper]:calculateData 121 - PreviousIndex: 69
+23:53:45.561 INFO  [iot.api.utility.ExecuteHelper]:calculateData 122 - Previous[Id]: 60593 Previous[TimeStamp]: 2016-11-09 22:46:32.0 Previous[Value]: 1
+23:53:45.561 INFO  [iot.api.utility.ExecuteHelper]:calculateData 127 - Diff: 4000 [ms]
+23:53:45.561 INFO  [iot.api.utility.ExecuteHelper]:calculateData 142 - Total: 433000 [ms]
+23:53:45.561 INFO  [iot.api.utility.ExecuteHelper]:calculateData 144 - ----------------------------------------------------------------
+23:53:45.562 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 96 - totalStatistics: 515000
+23:53:45.586 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 90 - Calculate Thermostat
+23:53:45.586 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 92 - Calculate Lightt
+23:53:45.586 INFO  [iot.api.utility.ExecuteHelper]:statisticsPower 96 - totalStatistics: 0

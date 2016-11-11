@@ -1,3 +1,20 @@
+-- Nombre del topico: topic_ + fridge_id + pin
+
+--
+--Identifico el refrigerador: test_topic_1
+--Identifico el sendor: test_topic_1/A2/value/get
+--
+-- INPUT
+-- A3 presence sensor 
+-- A0 internal temperature sensor 
+-- A1 external temperature sensor 
+-- A2 weight sensor
+--
+-- OUTPUT
+-- D13 thermostat actuator
+-- D12 light actuator
+--
+
 INSERT INTO stores values('0','Concepcion Beistegui 1401','Narvarte','AAAAA');
 INSERT INTO stores values('1','Anaxagoras 616','Del Valle','BBBBB');
 INSERT INTO stores values('2','Cuauhtemoc 165','Roma','CCCCC');

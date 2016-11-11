@@ -38,15 +38,7 @@ canvas {
 			<form action="action_page.php">
 
 				<div class="container">
-					<h1>Estadisticas</h1>
-					<label><b>Tienda: </b></label> <select>
-						<option value="volvo">Seleccionar Tienda ....</option>
-						<option value="volvo">Todas las tiendas</option>
-						<option value="volvo">Queretaro 1</option>
-						<option value="volvo">Mexicali super</option>
-						<option value="volvo">Aguascalientes</option>
-					</select>
-					<button type="submit">Generar Estadisticas de energia</button>
+					<h1>Estadisticas</h1>					
 				</div>
 				<div class="container">
 					<table style="width: 100%">
@@ -70,7 +62,9 @@ canvas {
 							<td><div class="graph">
 									<canvas id="luz"></canvas>
 								</div></td>
-							<td></td>
+							<td><div class="graph">
+									<canvas id="peso"></canvas>
+								</div></td>
 						</tr>
 					</table>
 				</div>
@@ -308,26 +302,21 @@ canvas {
 									var config_interna = {
 										type : 'line',
 										data : {
-											yLabels : [ 'Big squeeze',
-													'Medium squeeze',
-													'Light squeeze',
-													'Light touch',
-													'No pressure' ],
 											datasets : [ {
 												label : 'Peso',
 												data : results
 											} ]
 										},
 										options : {
-											responsive : true,
 											scales : {
 												xAxes : [ {
 													type : 'time'
 												} ],
 												yAxes : [ {
-													type : 'category',
-													position : 'left',
-													display : true,
+													scaleLabel : {
+														display : true,
+														labelString : 'Value'
+													}
 												} ]
 											}
 										}
@@ -344,8 +333,9 @@ canvas {
 														dataset.pointBorderWidth = 2;
 													});
 
-									var ctx = document.getElementById("peso")
-											.getContext("2d");
+									var ctx = document.getElementById(
+											"peso").getContext(
+											"2d");
 									window.myLineInterna = new Chart(ctx,
 											config_interna);
 
@@ -493,6 +483,7 @@ canvas {
 				drawExternalTempChart();
 				drawThermostateChart();
 				drawLightChart();
+				drawWeightChart();
 
 			};
 

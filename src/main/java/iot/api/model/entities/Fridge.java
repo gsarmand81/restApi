@@ -31,6 +31,9 @@ public class Fridge {
 	@Transient
 	private List<SensorEvent> lastData;
 	
+	@Transient
+	private long consume;
+	
 	public Fridge(String arduino) {
 		this.arduino = arduino;
 	}
@@ -44,7 +47,6 @@ public class Fridge {
 		this.arduino = arduino;
 		this.store = store;
 	}
-
 	
 	public Fridge(String arduino, Store store) {
 		this.arduino = arduino;
@@ -83,9 +85,19 @@ public class Fridge {
 		this.lastData = lastData;
 	}
 
+	public long getConsume() {
+		return consume;
+	}
+
+	public void setConsume(long consume) {
+		this.consume = consume;
+	}
+
 	@Override
 	public String toString() {
-		return "Fridge [id=" + id + ", arduino=" + arduino + ", store=" + store + ", lastData=" + lastData + "]";
+		return "Fridge [id=" + id + ", arduino=" + arduino + ", store=" + store + ", lastData=" + lastData
+				+ ", consume=" + consume + "]";
 	}
+
 	
 }

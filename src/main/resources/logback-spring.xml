@@ -2,16 +2,30 @@
 <configuration>
 	<include resource="org/springframework/boot/logging/logback/base.xml" />
 
-	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+	<appender name="FILE_STAT" class="ch.qos.logback.core.FileAppender">
+		<file>statistics.log</file>
+		<append>true</append>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} %-5level [%class{36}]:%M %L - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="FILE_APP" class="ch.qos.logback.core.FileAppender">
 		<file>app.log</file>
 		<append>true</append>
 		<encoder>
-			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %class{36}.%M %L - %msg%n</pattern>
+			<pattern>%d{HH:mm:ss.SSS} %-5level [%class{36}]:%M %L - %msg%n
+			</pattern>
 		</encoder>
 	</appender>
 
 	<logger name="sys.out.log" level="debug" additivity="false">
-		<appender-ref ref="FILE" />
+		<appender-ref ref="FILE_APP" />
+	</logger>
+	
+	<logger name="sys.out.stat" level="debug" additivity="false">
+		<appender-ref ref="FILE_STAT" />
 	</logger>
 
 </configuration>
