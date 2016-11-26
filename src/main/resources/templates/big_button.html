@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+  <head>
+
+     <!-- define on/off styles -->
+     <style type="text/css">
+      .on  { background:green; }
+      .off { background:red; }
+      .button {font-size: 120px;}      
+     </style>
+
+	<script src="../static/js/Chart.bundle.js"
+		th:src="@{js/Chart.bundle.js}"></script>
+	<script src="../static/js/jquery.min.js" th:src="@{js/jquery.min.js}"></script>
+
+     <!-- define the toggle function -->
+     <script language="javascript">
+     /*<![CDATA[*/
+        function toggleState(item){
+           var message;
+           
+           if(item.className == "on button") {
+              item.className="off button";
+              item.value = "OFF"
+           	  message = "true";   
+			  
+           } else {
+              item.className="on button";
+              item.value = "ON"
+              message = "false";
+           }
+           
+           var topic_url = "mqtt?topic=test_topic/D8/value/set&message=" + message;
+           	
+		   $.ajax(
+					{
+						url : topic_url,
+					})
+		   .done(				   
+			      	  //alert("Data: " + data + "\nStatus: " + status);	
+			);   	
+        }
+     /*]]>*/
+     </script>
+  </head>
+
+  <body>
+     <!-- call 'toggleState' whenever clicked -->
+     <input type="button" id="btn" value="OFF" 
+        class="off button" onclick="toggleState(this)" size="40" />
+  </body>
+
+</html>
+
