@@ -36,7 +36,15 @@ public class Utility {
 			value = 4l;
 		} else if (pin.equals("D12")) {
 			value = 5l;
-		}			
+		} else if (pin.equals("D3")) {
+			value = 6l;
+		} else if (pin.equals("D8")) {
+			value = 7l;
+		} else if (pin.equals("A3")) {
+			value = 8l;
+		} else if (pin.equals("A4")) {
+			value = 9l;
+		}														
 
 		logger.info("Topic: " + topic + " baseTopic: " + baseTopic + " Pin: " + pin + " Value: " + value);
 		
@@ -84,7 +92,7 @@ public class Utility {
 
 		long id = mapSensor(topic);
 
-		if (id == 4 || id == 5) {
+		if (id == 4 || id == 5 || id == 6 || id == 7) {
 			if (value.equals("true")) {
 				return "1";
 			} 
@@ -120,6 +128,14 @@ public class Utility {
 			return "D13";
 		} else if (sensorId == 5l) {
 			return "D12";
+		} else if (sensorId == 6l) {
+			return "D3";
+		} else if (sensorId == 7l) {
+			return "D8";
+		} else if (sensorId == 8l) {
+			return "A3";
+		} else if (sensorId == 9l) {
+			return "A4";
 		}
 
 		return  "";

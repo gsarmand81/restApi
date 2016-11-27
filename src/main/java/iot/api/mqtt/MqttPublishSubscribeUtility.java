@@ -130,6 +130,8 @@ public class MqttPublishSubscribeUtility {
 
 
 	public void mqttConnectNPublishNSubscribe(String payload){
+		
+		//TODO Modulo para validar datos.
 		try {
 
 			logger.info("Publish message="+payload.toString());	        

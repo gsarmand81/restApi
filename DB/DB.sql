@@ -37,3 +37,7 @@ INSERT INTO  IOTDB.sensors values (2,'Temperatura Externa','Sensor');
 INSERT INTO  IOTDB.sensors values (3,'Peso','Sensor');
 INSERT INTO  IOTDB.sensors values (4,'Termostato','Actuador');
 INSERT INTO  IOTDB.sensors values (5,'Luz','Actuador');
+INSERT INTO  IOTDB.sensors values (6,'Nivel Agua','Sensor');
+INSERT INTO  IOTDB.sensors values (7,'Bomba de Agua','Actuador');
+INSERT INTO  IOTDB.sensors values (8,'Humedad Tierra 1','Sensor');
+INSERT INTO  IOTDB.sensors values (9,'Humedad Tierra 2','Sensor');

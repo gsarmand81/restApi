@@ -18,7 +18,7 @@ public class MqttController {
 	@ResponseBody
 	public String testMqtt(@RequestParam(value="topic") String completeNameTopic,
 			@RequestParam(value="message") String message) {
-
+ 
 		mqttClients.getMqttClient(completeNameTopic).mqttConnectNPublishNSubscribe(message);
 
 		return "Invoke Success!!";
