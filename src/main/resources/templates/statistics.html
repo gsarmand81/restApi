@@ -77,7 +77,7 @@ canvas {
 				var jsonData = $
 						.ajax(
 								{
-									url : 'http://localhost:8080/getChartData?fridge_id=0&sensor_id=0',
+									url : 'getChartData?fridge_id=0&sensor_id=7',
 								})
 						.done(
 								function(results) {
@@ -100,7 +100,7 @@ canvas {
 										type : 'line',
 										data : {
 											datasets : [ {
-												label : 'Sensor de Precencia',
+												label : 'Bomba de Agua',
 												data : results
 											} ]
 										},
@@ -144,7 +144,7 @@ canvas {
 				var jsonData = $
 						.ajax(
 								{
-									url : 'http://localhost:8080/getChartData?fridge_id=0&sensor_id=1',
+									url : 'getChartData?fridge_id=0&sensor_id=1',
 								})
 						.done(
 								function(results) {
@@ -212,7 +212,7 @@ canvas {
 				var jsonData = $
 						.ajax(
 								{
-									url : 'http://localhost:8080/getChartData?fridge_id=0&sensor_id=2',
+									url : 'getChartData?fridge_id=0&sensor_id=2',
 								})
 						.done(
 								function(results) {
@@ -280,7 +280,7 @@ canvas {
 				var jsonData = $
 						.ajax(
 								{
-									url : 'http://localhost:8080/getChartData?fridge_id=0&sensor_id=3',
+									url : 'getChartData?fridge_id=0&sensor_id=8',
 								})
 						.done(
 								function(results) {
@@ -303,7 +303,7 @@ canvas {
 										type : 'line',
 										data : {
 											datasets : [ {
-												label : 'Peso',
+												label : 'Humedad Tierra 1',
 												data : results
 											} ]
 										},
@@ -348,7 +348,7 @@ canvas {
 				var jsonData = $
 						.ajax(
 								{
-									url : 'http://localhost:8080/getChartData?fridge_id=0&sensor_id=4',
+									url : 'getChartData?fridge_id=0&sensor_id=9',
 								})
 						.done(
 								function(results) {
@@ -371,7 +371,7 @@ canvas {
 										type : 'line',
 										data : {
 											datasets : [ {
-												label : 'Actuador Termostato',
+												label : 'Humedad Tierra 2',
 												data : results
 											} ]
 										},
@@ -415,7 +415,7 @@ canvas {
 				var jsonData = $
 						.ajax(
 								{
-									url : 'http://localhost:8080/getChartData?fridge_id=0&sensor_id=5',
+									url : 'getChartData?fridge_id=0&sensor_id=5',
 								})
 						.done(
 								function(results) {
