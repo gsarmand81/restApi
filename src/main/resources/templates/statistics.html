@@ -30,7 +30,8 @@ canvas {
 				<li><a href="statistics.html" th:href="@{/statistics}">Estadisticas</a></li>
 				<li><a href="javascript: document.logoutForm.submit()" role="menuitem">Salir</a></li>
 			</ul>
-			<form name="logoutForm" th:action="@{/logout}" method="post" th:hidden="true">
+			<form name="logoutForm" th:action="@{/logout}" method="post"
+				th:hidden="true">
 				<input type="submit" value="Sign Out" />
 			</form>
 		</div>
@@ -38,7 +39,7 @@ canvas {
 			<form action="action_page.php">
 
 				<div class="container">
-					<h1>Estadisticas</h1>					
+					<h1>Estadisticas</h1>
 				</div>
 				<div class="container">
 					<table style="width: 100%">
@@ -72,79 +73,26 @@ canvas {
 		</div>
 		<script>
 			/*<![CDATA[*/
-			function drawPresenceChart() {
+				
+			window.onload = function() {
 
-				var jsonData = $
-						.ajax(
-								{
-									url : 'getChartData?fridge_id=0&sensor_id=7',
-								})
-						.done(
-								function(results) {
-
-									var randomScalingFactor = function() {
-										return Math.round(Math.random() * 100);
-										//return 0;
-									};
-									var randomColorFactor = function() {
-										return Math.round(Math.random() * 255);
-									};
-									var randomColor = function(opacity) {
-										return 'rgba(' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + (opacity || '.3') + ')';
-									};
-									// Create the chart.js data structure using 'labels' and 'data'
-									var config_interna = {
-										type : 'line',
-										data : {
-											datasets : [ {
-												label : 'Bomba de Agua',
-												data : results
-											} ]
-										},
-										options : {
-											scales : {
-												xAxes : [ {
-													type : 'time'
-												} ],
-												yAxes : [ {
-													scaleLabel : {
-														display : true,
-														labelString : 'Estado'
-													}
-												} ]
-											}
-										}
-									};
-
-									$
-											.each(
-													config_interna.data.datasets,
-													function(i, dataset) {
-														dataset.borderColor = randomColor(0.4);
-														dataset.backgroundColor = randomColor(0.5);
-														dataset.pointBorderColor = 'rgba(76,84,19,0.4)';
-														dataset.pointBackgroundColor = randomColor(0.5);
-														dataset.pointBorderWidth = 2;
-													});
-
-									var ctx = document.getElementById(
-											"presencia").getContext("2d");
-									window.myLineInterna = new Chart(ctx,
-											config_interna);
-
-								});
-
+				drawChart("presencia", "7", "Bomba de Agua", "Estado");
+				drawChart("temperatura_interna", "1", "Temperatura Interna","T [°C]");
+				drawChart("temperatura_externa", "2", "Temperatura Externa","T [°C]");
+				drawChart("peso", "8", "Humedad Tierra 1", "Value");
+				drawChart("termostato", "9", "Humedad Tierra 2", "Value");
+				drawChart("luz", "5", "Actuador de Luz", "Value");
+				
 			};
 
-			function drawInternalTempChart() {
+
+			function drawChart(chartId, sensorId, title, yLabel) {
 
 				var jsonData = $
 						.ajax(
 								{
-									url : 'getChartData?fridge_id=0&sensor_id=1',
+									url : 'getChartData?fridge_id=0&sensor_id='
+											+ sensorId,
 								})
 						.done(
 								function(results) {
@@ -167,7 +115,7 @@ canvas {
 										type : 'line',
 										data : {
 											datasets : [ {
-												label : 'Temperatura Interna',
+												label : title,
 												data : results
 											} ]
 										},
@@ -179,314 +127,33 @@ canvas {
 												yAxes : [ {
 													scaleLabel : {
 														display : true,
-														labelString : 'T [°C]'
+														labelString : yLabel
 													}
 												} ]
 											}
 										}
 									};
 
-									$
-											.each(
-													config_interna.data.datasets,
-													function(i, dataset) {
-														dataset.borderColor = randomColor(0.4);
-														dataset.backgroundColor = randomColor(0.5);
-														dataset.pointBorderColor = 'rgba(76,84,19,0.4)';
-														dataset.pointBackgroundColor = randomColor(0.5);
-														dataset.pointBorderWidth = 2;
-													});
+									$.each(
+									config_interna.data.datasets,
+									function(i, dataset) {
+										dataset.borderColor = randomColor(0.4);
+										dataset.backgroundColor = randomColor(0.5);
+										dataset.pointBorderColor = 'rgba(76,84,19,0.4)';
+										dataset.pointBackgroundColor = randomColor(0.5);
+										dataset.pointBorderWidth = 2;
+									});
 
-									var ctx = document.getElementById(
-											"temperatura_interna").getContext(
-											"2d");
-									window.myLineInterna = new Chart(ctx,
-											config_interna);
-
-								});
-
-			};
-
-			function drawExternalTempChart() {
-
-				var jsonData = $
-						.ajax(
-								{
-									url : 'getChartData?fridge_id=0&sensor_id=2',
-								})
-						.done(
-								function(results) {
-
-									var randomScalingFactor = function() {
-										return Math.round(Math.random() * 100);
-										//return 0;
-									};
-									var randomColorFactor = function() {
-										return Math.round(Math.random() * 255);
-									};
-									var randomColor = function(opacity) {
-										return 'rgba(' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + (opacity || '.3') + ')';
-									};
-									// Create the chart.js data structure using 'labels' and 'data'
-									var config_interna = {
-										type : 'line',
-										data : {
-											datasets : [ {
-												label : 'Temperatura Externa',
-												data : results
-											} ]
-										},
-										options : {
-											scales : {
-												xAxes : [ {
-													type : 'time'
-												} ],
-												yAxes : [ {
-													scaleLabel : {
-														display : true,
-														labelString : 'T [°C]'
-													}
-												} ]
-											}
-										}
-									};
-
-									$
-											.each(
-													config_interna.data.datasets,
-													function(i, dataset) {
-														dataset.borderColor = randomColor(0.4);
-														dataset.backgroundColor = randomColor(0.5);
-														dataset.pointBorderColor = 'rgba(76,84,19,0.4)';
-														dataset.pointBackgroundColor = randomColor(0.5);
-														dataset.pointBorderWidth = 2;
-													});
-
-									var ctx = document.getElementById(
-											"temperatura_externa").getContext(
-											"2d");
-									window.myLineInterna = new Chart(ctx,
-											config_interna);
-
-								});
-
-			};
-
-			function drawWeightChart() {
-
-				var jsonData = $
-						.ajax(
-								{
-									url : 'getChartData?fridge_id=0&sensor_id=8',
-								})
-						.done(
-								function(results) {
-
-									var randomScalingFactor = function() {
-										return Math.round(Math.random() * 100);
-										//return 0;
-									};
-									var randomColorFactor = function() {
-										return Math.round(Math.random() * 255);
-									};
-									var randomColor = function(opacity) {
-										return 'rgba(' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + (opacity || '.3') + ')';
-									};
-									// Create the chart.js data structure using 'labels' and 'data'
-									var config_interna = {
-										type : 'line',
-										data : {
-											datasets : [ {
-												label : 'Humedad Tierra 1',
-												data : results
-											} ]
-										},
-										options : {
-											scales : {
-												xAxes : [ {
-													type : 'time'
-												} ],
-												yAxes : [ {
-													scaleLabel : {
-														display : true,
-														labelString : 'Value'
-													}
-												} ]
-											}
-										}
-									};
-
-									$
-											.each(
-													config_interna.data.datasets,
-													function(i, dataset) {
-														dataset.borderColor = randomColor(0.4);
-														dataset.backgroundColor = randomColor(0.5);
-														dataset.pointBorderColor = 'rgba(76,84,19,0.4)';
-														dataset.pointBackgroundColor = randomColor(0.5);
-														dataset.pointBorderWidth = 2;
-													});
-
-									var ctx = document.getElementById(
-											"peso").getContext(
-											"2d");
-									window.myLineInterna = new Chart(ctx,
-											config_interna);
-
-								});
-
-			};
-
-			function drawThermostateChart() {
-
-				var jsonData = $
-						.ajax(
-								{
-									url : 'getChartData?fridge_id=0&sensor_id=9',
-								})
-						.done(
-								function(results) {
-
-									var randomScalingFactor = function() {
-										return Math.round(Math.random() * 100);
-										//return 0;
-									};
-									var randomColorFactor = function() {
-										return Math.round(Math.random() * 255);
-									};
-									var randomColor = function(opacity) {
-										return 'rgba(' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + (opacity || '.3') + ')';
-									};
-									// Create the chart.js data structure using 'labels' and 'data'
-									var config_interna = {
-										type : 'line',
-										data : {
-											datasets : [ {
-												label : 'Humedad Tierra 2',
-												data : results
-											} ]
-										},
-										options : {
-											scales : {
-												xAxes : [ {
-													type : 'time'
-												} ],
-												yAxes : [ {
-													scaleLabel : {
-														display : true,
-														labelString : ''
-													}
-												} ]
-											}
-										}
-									};
-
-									$
-											.each(
-													config_interna.data.datasets,
-													function(i, dataset) {
-														dataset.borderColor = randomColor(0.4);
-														dataset.backgroundColor = randomColor(0.5);
-														dataset.pointBorderColor = 'rgba(76,84,19,0.4)';
-														dataset.pointBackgroundColor = randomColor(0.5);
-														dataset.pointBorderWidth = 2;
-													});
-
-									var ctx = document.getElementById(
-											"termostato").getContext("2d");
-									window.myLineInterna = new Chart(ctx,
-											config_interna);
-
-								});
-
-			};
-
-			function drawLightChart() {
-
-				var jsonData = $
-						.ajax(
-								{
-									url : 'getChartData?fridge_id=0&sensor_id=5',
-								})
-						.done(
-								function(results) {
-
-									var randomScalingFactor = function() {
-										return Math.round(Math.random() * 100);
-										//return 0;
-									};
-									var randomColorFactor = function() {
-										return Math.round(Math.random() * 255);
-									};
-									var randomColor = function(opacity) {
-										return 'rgba(' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + randomColorFactor()
-												+ ',' + (opacity || '.3') + ')';
-									};
-									// Create the chart.js data structure using 'labels' and 'data'
-									var config_interna = {
-										type : 'line',
-										data : {
-											datasets : [ {
-												label : 'Actuador de Luz',
-												data : results
-											} ]
-										},
-										options : {
-											scales : {
-												xAxes : [ {
-													type : 'time'
-												} ],
-												yAxes : [ {
-													scaleLabel : {
-														display : true,
-														labelString : ''
-													}
-												} ]
-											}
-										}
-									};
-
-									$
-											.each(
-													config_interna.data.datasets,
-													function(i, dataset) {
-														dataset.borderColor = randomColor(0.4);
-														dataset.backgroundColor = randomColor(0.5);
-														dataset.pointBorderColor = 'rgba(76,84,19,0.4)';
-														dataset.pointBackgroundColor = randomColor(0.5);
-														dataset.pointBorderWidth = 2;
-													});
-
-									var ctx = document.getElementById("luz")
+									var ctx = document.getElementById(chartId)
 											.getContext("2d");
 									window.myLineInterna = new Chart(ctx,
 											config_interna);
 
 								});
 
-			};
+			}
 
-			window.onload = function() {
-				drawPresenceChart();
-				drawInternalTempChart();
-				drawExternalTempChart();
-				drawThermostateChart();
-				drawLightChart();
-				drawWeightChart();
-
-			};
-
+		
 			/*]]>*/
 		</script>
 	</div>
