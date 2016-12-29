@@ -15,7 +15,10 @@ SELECT * FROM rules;
 UPDATE `IOTDB`.`rules` SET `init_hour`='00:00',`end_hour`='23:59' WHERE `rule_id` in ('9');
 
 -- Activar Regla
-UPDATE `IOTDB`.`rules` SET `enable`=false WHERE `rule_id` in ('2','3','4','5','6','8');
+UPDATE `IOTDB`.`rules` SET `enable`=false WHERE `rule_id` in ('1','2','3','4','5','6');
+
+UPDATE `IOTDB`.`rules` SET `enable`=true WHERE `rule_id` in ('7');
+
 
 SELECT * from sensor_events where sensor_id = 3 order by timestamp desc limit 1 ;
 
@@ -33,7 +36,7 @@ INSERT INTO `IOTDB`.`rules` (`enable`, `name`, `operator`, `param_id`, `param_id
 VALUES (true, 'Apaga termostato si la temperatura es mayo a  25', '<', '1', '4', '0', '25', '05:00', '0:10');
 
 INSERT INTO `IOTDB`.`rules` (`enable`, `name`, `operator`, `param_id`, `param_id_action`, `value_action`, `value_compare`, `end_hour`, `init_hour`)  
-VALUES (true, 'Si el flotador se prende, apaga la bomba independiente del estado de esta.', '=', '6', '7', '0', '1', '00:00', '23:59');
+VALUES (true, 'Si el flotador se prende, apaga la bomba independiente del estado de esta.', '=', '6', '7', '0', '1', '23:59', '00:00');
 
 UPDATE `IOTDB`.`rules` SET `enable`='1' WHERE `rule_id` in ('1','2','3','4','5','6');
 
